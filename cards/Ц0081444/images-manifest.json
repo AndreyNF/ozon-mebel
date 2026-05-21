@@ -6,17 +6,28 @@
     "01-main.png",
     "02-infographic.png",
     "03-lifestyle-woman.png",
+    "04-lifestyle-couple.png",
+    "05-interior-layout.png",
+    "10-angle-ai.png",
     "04-lifestyle-interior-ref.jpg",
     "05-dimensions-ref.jpg",
     "05-interior-cutaway-ref.jpg",
     "06-angle-ref.jpg"
   ],
   "download_status": {
-    "ok_local": ["01-main.png", "02-infographic.png", "03-lifestyle-woman.png", "04-lifestyle-interior-ref.jpg", "05-dimensions-ref.jpg", "05-interior-cutaway-ref.jpg", "06-angle-ref.jpg"],
-    "failed_cdn": "tempfile.aiquickdraw.com — таймаут/IncompleteRead (couple lifestyle, interior-layout, angle AI)",
-    "ozon_excel_urls": "прямые ссылки 33komoda.ru в OZON_UPLOAD_Ц0081444_2026-05-21.xlsx"
+    "ok_local": [
+      "01-main.png",
+      "02-infographic.png",
+      "03-lifestyle-woman.png",
+      "04-lifestyle-couple.png",
+      "05-interior-layout.png",
+      "10-angle-ai.png",
+      "04-lifestyle-interior-ref.jpg",
+      "05-dimensions-ref.jpg",
+      "05-interior-cutaway-ref.jpg",
+      "06-angle-ref.jpg"
+    ]
   },
   "generated_at": "2026-05-21T19:35:00+03:00",
-  "tool": "gpt-image-2",
-  "notes": "Для своих URL в Excel: hosting.config.json → py scripts/apply_hosting_urls.py Ц0081444"
+  "tool": "gpt-image-2"
 }

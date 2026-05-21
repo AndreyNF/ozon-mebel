@@ -10,6 +10,7 @@ from datetime import date
 from pathlib import Path
 
 import openpyxl
+from openpyxl.styles import Alignment
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "templates" / "Комплекты мебели_21.05.2026.xlsx"
@@ -52,7 +53,18 @@ def main() -> None:
             with open(out, "a"):
                 pass
         except PermissionError:
-            out = card / f"OZON_UPLOAD_{article}_{date.today().isoformat()}_v2.xlsx"
+            for n in range(2, 20):
+                alt = card / f"OZON_UPLOAD_{article}_{date.today().isoformat()}_v{n}.xlsx"
+                if not alt.exists():
+                    out = alt
+                    break
+                try:
+                    with open(alt, "a"):
+                        pass
+                    out = alt
+                    break
+                except PermissionError:
+                    continue
     shutil.copy2(TEMPLATE, out)
     wb = openpyxl.load_workbook(out)
     ws = wb[SHEET]
@@ -60,14 +72,22 @@ def main() -> None:
     target = find_row(ws, article)
 
     skip = {"images", "image_files", "_meta", "_packaging", "_photos"}
+    photo_extra_key = "Ссылки на дополнительные фото"
     for key, value in row.items():
         if key.startswith("_") or key in skip:
             continue
         if value is None or value == "" or value == "[УТОЧНИТЬ]":
             continue
+        if key == photo_extra_key and isinstance(value, str):
+            # Ozon/Excel на Windows: каждый URL с новой строки (CRLF), как Alt+Enter в ячейке
+            parts = [u.strip() for u in value.replace("\r", "").split("\n") if u.strip()]
+            value = "\r\n".join(parts)
         col = headers.get(key) or headers.get(key.replace("*", ""))
         if col:
-            ws.cell(target, col, value)
+            cell = ws.cell(target, col, value)
+            if key == photo_extra_key:
+                cell.alignment = Alignment(wrap_text=True, vertical="top")
+                ws.row_dimensions[target].height = max(120, 15 * len(parts))
 
     wb.save(out)
     print(str(out))

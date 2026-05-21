@@ -33,13 +33,20 @@ def main() -> None:
     row = json.loads(row_path.read_text(encoding="utf-8"))
 
     images_dir = card / "images"
-    files = sorted(p.name for p in images_dir.glob("*") if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp"})
+    manifest_path = card / "images-manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        files = list(manifest.get("image_files") or [])
+    else:
+        files = []
+    if not files:
+        files = sorted(p.name for p in images_dir.glob("*") if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp"})
     if not files:
         raise SystemExit(f"Нет файлов в {images_dir}")
 
     urls = [public_url(base, f"cards/{article}/images/{name}") for name in files]
     row["Ссылка на главное фото*"] = urls[0]
-    row["Ссылки на дополнительные фото"] = "\n".join(urls[1:]) if len(urls) > 1 else ""
+    row["Ссылки на дополнительные фото"] = "\r\n".join(urls[1:]) if len(urls) > 1 else ""
     row["images"] = urls
     row["image_files"] = files
 
