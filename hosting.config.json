@@ -1,0 +1,5 @@
+{
+  "public_base_url": "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main",
+  "comment": "raw.githubusercontent.com — прямые URL для Ozon",
+  "note": "Запустите: py scripts/apply_hosting_urls.py Ц0081444"
+}

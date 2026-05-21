@@ -1,0 +1,23 @@
+{
+  "article": "АРТИКУЛ_ПРОИЗВОДИТЕЛЯ",
+  "category": "Спальня",
+  "ozon_format": {
+    "aspect_ratio": "3:4",
+    "resolution_default": "2K",
+    "target_pixels": "1500x2000+",
+    "formats": ["jpeg", "png"]
+  },
+  "generated_at": "2026-05-21T12:00:00+03:00",
+  "tool": "gpt-image-2",
+  "reference_urls": [],
+  "images": [
+    {
+      "slot": 1,
+      "type": "main",
+      "url": "https://...",
+      "prompt": "...",
+      "aspect_ratio": "3:4",
+      "resolution": "2K"
+    }
+  ]
+}
