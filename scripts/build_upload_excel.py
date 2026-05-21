@@ -47,6 +47,12 @@ def main() -> None:
     row = json.loads(row_path.read_text(encoding="utf-8"))
 
     out = card / f"OZON_UPLOAD_{article}_{date.today().isoformat()}.xlsx"
+    if out.exists():
+        try:
+            with open(out, "a"):
+                pass
+        except PermissionError:
+            out = card / f"OZON_UPLOAD_{article}_{date.today().isoformat()}_v2.xlsx"
     shutil.copy2(TEMPLATE, out)
     wb = openpyxl.load_workbook(out)
     ws = wb[SHEET]

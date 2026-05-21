@@ -12,8 +12,8 @@
   "Ширина упаковки, мм*": 924,
   "Высота упаковки, мм*": 140,
   "Длина упаковки, мм*": 1860,
-  "Ссылка на главное фото*": "https://33komoda.ru/upload/resize_cache/iblock/6bc/53cdkcamcq30tf7efnahbjoh293j1zxg/1000_500_0/%D0%BC%D1%88900.1.jpg",
-  "Ссылки на дополнительные фото": "https://33komoda.ru/upload/resize_cache/iblock/a3c/qfrb4kgykvdc8l3kpi72aaitn2e5vmjd/1000_500_0/%D0%BC%D1%88900.1_1.jpg\nhttps://33komoda.ru/upload/iblock/137/qq52cmcxyygu3jc22zjgdlgpe694q6ek/%D0%BC%D0%BE%D1%80%D0%B8-%D1%88%D0%BA%D0%B0%D1%84-%D0%BC%D1%88-900.1-%D0%B8%D0%BD%D1%82.jpg\nhttps://33komoda.ru/upload/resize_cache/iblock/212/asl80aci8w76ibh5nkz8e00lijevkikg/1000_500_0/%D0%BC%D0%BE%D1%80%D0%B8-%D0%BC%D1%88-900-1_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B.jpg\nhttps://33komoda.ru/upload/resize_cache/iblock/bab/6oxhzc5g68igut5jdm27bifyir5tsyfk/1000_500_0/%D0%BC%D0%BE%D1%80%D0%B8-%D1%88%D0%BA%D0%B0%D1%84-%D0%BC%D1%88-900.1-%D1%81%D1%85.jpg\nhttps://33komoda.ru/upload/resize_cache/iblock/d02/rdmmc7sbpda7tew47l9r7ht99omczj0x/1000_500_0/%D0%BC%D1%81-1-%D0%BF%D1%80%D0%B0%D0%B2%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82.jpg",
+  "Ссылка на главное фото*": "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png",
+  "Ссылки на дополнительные фото": "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png\nhttps://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/03-lifestyle-woman.png\nhttps://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg\nhttps://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg\nhttps://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-cutaway-ref.jpg\nhttps://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/06-angle-ref.jpg",
   "Ссылки на фото 360": "",
   "Артикул фото": "C0081444-main",
   "Бренд*": "ДСВ",
@@ -57,5 +57,23 @@
     "packaging_note": "Габариты упаковки — расчётные для flat-pack (1860×924×140 мм). Замените на фактические после замера.",
     "max_load_note": "25 кг — ориентир нагрузки на полку по аналогам корпусной мебели ЛДСП",
     "seo_keywords": "шкаф белый 90 см, шкаф распашной 2 двери, шкаф с ящиками, шкаф для спальни, шкаф мори, дсв мебель"
-  }
+  },
+  "images": [
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/03-lifestyle-woman.png",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-cutaway-ref.jpg",
+    "https://raw.githubusercontent.com/AndreyNF2911/ozon-mebel/main/cards/%D0%A60081444/images/06-angle-ref.jpg"
+  ],
+  "image_files": [
+    "01-main.png",
+    "02-infographic.png",
+    "03-lifestyle-woman.png",
+    "04-lifestyle-interior-ref.jpg",
+    "05-dimensions-ref.jpg",
+    "05-interior-cutaway-ref.jpg",
+    "06-angle-ref.jpg"
+  ]
 }
