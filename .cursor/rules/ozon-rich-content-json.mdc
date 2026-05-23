@@ -1,0 +1,51 @@
+---
+description: Формат Rich-контент JSON Ozon v0.3 — сборка и валидация
+globs: cards/**/*.rich-content.json,scripts/build_rich_content.py,docs/ozon-rich-content.md
+alwaysApply: false
+---
+
+# Rich-контент JSON (Ozon v0.3)
+
+**Не править JSON руками** — только через `py scripts/build_rich_content.py {АРТ}` (хелперы `billboard_block`, `chess_block`, `roll_block` в `scripts/build_rich_content.py`). Новая карточка — добавить `@register` сборщик в тот же файл.
+
+Проверка: [песочница](https://rich-content.ozon.ru/sandbox) → `py scripts/ozon_api_import.py {АРТ}`. Подробнее: `docs/ozon-rich-content.md`.
+
+## Корень файла
+
+```json
+{ "version": 0.3, "content": [ /* виджеты */ ] }
+```
+
+## Обязательные поля текста
+
+`title` и `text` — **всегда объекты** с `size`, `align`, `color`, `content` (массив строк). Строка вместо объекта в billboard — ошибка «не соответствует шаблону».
+
+```json
+"title": { "content": ["Заголовок"], "size": "size4", "align": "left", "color": "color1" },
+"text": { "size": "size2", "align": "left", "color": "color1", "content": ["Абзац 1.", "Абзац 2."] }
+```
+
+## Виджеты
+
+| widgetName | type | Правила |
+|------------|------|---------|
+| raTextBlock | — | `title` + `text` или только `text` |
+| raShowcase | billboard | 1 блок: `imgLink`, `img`, `title`, `text` |
+| raShowcase | chess | 2–6 блоков: `img`, `imgLink`, `title`, `text`, `reverse` |
+| raShowcase | roll | только `imgLink` + `img` (+ `position`: `width_full`) |
+| raVideo | youtube | `youtubeVideoId` |
+
+## img
+
+GitHub raw URL из `cards/{АРТ}/images/` (те же, что в фото карточки). 3:4 → `768×1024`, mobile `750×1000`. Инфографика → `1240×1656`.
+
+## Запрещено в тексте
+
+- `•`, `×`, «ёлочные» кавычки — заменять на обыный текст / `x`
+- HTML в `content`
+- chess < 2 или > 6 блоков
+- billboard без `imgLink` или `text.size`
+
+## Поле в row.json
+
+Компактная одна строка: `json.dumps(..., separators=(",", ":"))` — заполняет скрипт сборки.

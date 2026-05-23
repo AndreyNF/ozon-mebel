@@ -1,0 +1,51 @@
+---
+description: Пайплайн новой карточки Ozon — от ссылки на товар до API-выгрузки
+alwaysApply: true
+---
+
+# Новая карточка Ozon: полный цикл
+
+Когда пользователь даёт **ссылку на товар** (+ производитель), агент **не спрашивает подтверждение** — выполняет цикл до `ozon_api_import.py`, если не указано иное.
+
+## Вход
+
+- Артикул производителя из описания — **не менять**
+- Источники: дилер (33komoda и т.п.) + сайт производителя
+- Категория Ozon: ветка **Мебель → …** (`ozon_api_resolve_category.py`)
+
+## Порядок (строго)
+
+1. `cards/{АРТ}/` — `{АРТ}.md`, `{АРТ}.row.json`, `ozon-category-ids.json`, `images-manifest.json`
+2. Wordstat → `#Хештеги`, `_meta.wordstat`
+3. **7 фото 3:4** — MCP `gpt-image-2`, `aspect_ratio: "3:4"`, `resolution: "2K"`; референс с дилера в `input_urls`
+4. Сразу: `py scripts/download_image.py URL cards/{АРТ}/images/0N-….png`
+5. `git add` + `git push` → `py scripts/apply_hosting_urls.py {АРТ}`
+6. `py scripts/build_rich_content.py {АРТ}` (сборщик `@register` в скрипте)
+7. `py scripts/validate_ozon_card.py {АРТ}` — без 7 фото **стоп**
+8. `py scripts/ozon_api_import.py {АРТ}` → `ozon_api_product_status.py {АРТ}`
+
+Rich JSON: `.cursor/rules/ozon-rich-content-json.mdc`.
+
+## Фото (7 слотов)
+
+`01-main` … `07-utp` — см. `docs/ozon-photo-series.md`, промпты `docs/prompts-by-category.md`.
+
+| Слот | Содержание |
+|------|------------|
+| 01-main | товар на белом/светлом фоне, без людей |
+| 02-infographic | размеры, материалы, русские подписи |
+| 03-lifestyle | человек в спальне/интерьере |
+| 04-details | фурнитура, кромка, ящики |
+| 05-angle | ракурс 3/4 |
+| 06-layout | комплектация / ящики / основание |
+| 07-utp | одно УТП (хранение, основание, серия) |
+
+## Без загрузки в Ozon
+
+- меньше 7 фото
+- Rich не собран через `build_rich_content.py`
+- категория не из ветки **Мебель**
+
+## После API
+
+Напомнить: остатки FBS в ЛК, шаблон Excel из ЛК в `templates/` если ещё нет.
