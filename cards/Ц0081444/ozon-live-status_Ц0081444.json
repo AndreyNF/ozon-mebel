@@ -1,0 +1,306 @@
+{
+  "item": {
+    "id": 4690623631,
+    "name": "Шкаф распашной ДСВ Мори МШ900.1 белый, 90 см, 2 двери, 2 ящика",
+    "offer_id": "Ц0081444",
+    "is_archived": false,
+    "is_autoarchived": false,
+    "barcodes": [],
+    "description_category_id": 17027919,
+    "type_id": 95108,
+    "created_at": "2026-05-21T16:49:21.198662Z",
+    "images": [
+      "https://cdn1.ozone.ru/s3/multimedia-1-i/10675111914.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-7/10675112011.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-u/10675111386.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-r/10675111095.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-6/10675111614.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-x/6824653305.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-0/10675111464.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-i/10675111986.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-o/10675111344.jpg"
+    ],
+    "currency_code": "RUB",
+    "min_price": "",
+    "old_price": "14990.00",
+    "price": "12990.00",
+    "sources": [
+      {
+        "sku": 4394110084,
+        "source": "sds",
+        "created_at": "2026-05-21T16:51:03.517074Z",
+        "shipment_type": "SHIPMENT_TYPE_GENERAL",
+        "quant_code": ""
+      }
+    ],
+    "model_info": {
+      "model_id": 1641023714,
+      "count": 1
+    },
+    "commissions": [
+      {
+        "delivery_amount": 25,
+        "percent": 37,
+        "return_amount": 1467,
+        "sale_schema": "FBO",
+        "value": 4806.3
+      },
+      {
+        "delivery_amount": 25,
+        "percent": 41,
+        "return_amount": 8524,
+        "sale_schema": "FBS",
+        "value": 5325.9
+      },
+      {
+        "percent": 41,
+        "sale_schema": "RFBS",
+        "value": 5325.9
+      },
+      {
+        "percent": 45,
+        "sale_schema": "FBP",
+        "value": 5845.5
+      }
+    ],
+    "is_prepayment_allowed": true,
+    "volume_weight": 82,
+    "has_discounted_fbo_item": false,
+    "is_discounted": false,
+    "discounted_fbo_stocks": 0,
+    "stocks": {
+      "has_stock": false,
+      "stocks": []
+    },
+    "errors": [
+      {
+        "code": "value_found_by_synonym",
+        "field": "",
+        "attribute_id": 6712,
+        "state": "new",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "Особенности",
+          "description": "Заменили некорректное значение \"полки\" на значение \"С полками\" из нашего справочника.",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "6712"
+            },
+            {
+              "name": "attribute_name",
+              "value": "Особенности"
+            },
+            {
+              "name": "new",
+              "value": "С полками"
+            },
+            {
+              "name": "old",
+              "value": "полки"
+            }
+          ],
+          "message": "{\"new\":\"С полками\",\"old\":\"полки\"}"
+        }
+      },
+      {
+        "code": "value_found_by_synonym",
+        "field": "",
+        "attribute_id": 22232,
+        "state": "new",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "ТН ВЭД коды ЕАЭС",
+          "description": "Заменили некорректное значение \"9403601009\" на значение \"9403601009 - Прочая мебель деревянная для столовых и жилых комнат\" из нашего справочника.",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "22232"
+            },
+            {
+              "name": "attribute_name",
+              "value": "ТН ВЭД коды ЕАЭС"
+            },
+            {
+              "name": "new",
+              "value": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат"
+            },
+            {
+              "name": "old",
+              "value": "9403601009"
+            }
+          ],
+          "message": "{\"new\":\"9403601009 - Прочая мебель деревянная для столовых и жилых комнат\",\"old\":\"9403601009\"}"
+        }
+      },
+      {
+        "code": "warning_attribute_values_out_of_range",
+        "field": "",
+        "attribute_id": 10400,
+        "state": "new",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "Гарантия",
+          "description": "Неверное значение атрибута. Для некоторых атрибутов все возможные значения собраны в виде списка — указывайте только их, прописывать значения вручную не нужно. Выберите значения атрибута из списка или загрузите новый XLS-шаблон со значением из списка.",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "10400"
+            },
+            {
+              "name": "attribute_name",
+              "value": "Гарантия"
+            }
+          ],
+          "message": "Attribute value not fresh"
+        }
+      },
+      {
+        "code": "warning_attribute_values_out_of_range",
+        "field": "",
+        "attribute_id": 6712,
+        "state": "new",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "Особенности",
+          "description": "Неверное значение атрибута. Для некоторых атрибутов все возможные значения собраны в виде списка — указывайте только их, прописывать значения вручную не нужно. Выберите значения атрибута из списка или загрузите новый XLS-шаблон со значением из списка.",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "6712"
+            },
+            {
+              "name": "attribute_name",
+              "value": "Особенности"
+            }
+          ],
+          "message": "Attribute value not fresh"
+        }
+      },
+      {
+        "code": "erased_attribute_value",
+        "field": "",
+        "attribute_id": 11254,
+        "state": "offer_validated",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "Rich-контент JSON",
+          "description": "Исправили значение атрибута, потому что: \"Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox.\".",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "11254"
+            },
+            {
+              "name": "attribute_name",
+              "value": "Rich-контент JSON"
+            },
+            {
+              "name": "code_description",
+              "value": "Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox."
+            }
+          ],
+          "message": "{\"code_description\":\"Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox.\"}"
+        }
+      },
+      {
+        "code": "erased_attribute_value",
+        "field": "",
+        "attribute_id": 4384,
+        "state": "offer_validated",
+        "level": "ERROR_LEVEL_WARNING",
+        "texts": {
+          "attribute_name": "Комплектация",
+          "description": "Исправили значение атрибута, потому что: \"В поле можно выбрать только одно значение. Удалите лишние значения\".",
+          "short_description": "",
+          "params": [
+            {
+              "name": "attribute_id",
+              "value": "4384"
+            },
+            {
+              "name": "attribute_name",
+              "value": "Комплектация"
+            },
+            {
+              "name": "code_description",
+              "value": "В поле можно выбрать только одно значение. Удалите лишние значения"
+            }
+          ],
+          "message": "{\"code_description\":\"В поле можно выбрать только одно значение. Удалите лишние значения\"}"
+        }
+      }
+    ],
+    "updated_at": "2026-05-23T15:26:19.391180Z",
+    "vat": "0.00",
+    "visibility_details": {
+      "has_price": true,
+      "has_stock": false
+    },
+    "price_indexes": {
+      "color_index": "COLOR_INDEX_RED",
+      "external_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 0
+      },
+      "ozon_index_data": {
+        "minimal_price": "8409.00",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 1.35
+      },
+      "self_marketplaces_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 0
+      }
+    },
+    "images360": [],
+    "is_kgt": true,
+    "color_image": [],
+    "primary_image": [
+      "https://cdn1.ozone.ru/s3/multimedia-1-z/10675111319.jpg"
+    ],
+    "statuses": {
+      "status": "price_sent",
+      "status_failed": "",
+      "moderate_status": "approved",
+      "validation_status": "success",
+      "status_name": "Готов к продаже",
+      "status_description": "Нет на складе",
+      "is_created": true,
+      "status_tooltip": "Товар можно привезти на склад Ozon или указать его количество на своем складе",
+      "status_updated_at": "2026-05-23T15:26:29.241211Z"
+    },
+    "is_super": false,
+    "is_seasonal": false,
+    "promotions": [
+      {
+        "is_enabled": true,
+        "type": "REVIEWS_PROMO"
+      }
+    ],
+    "sku": 4394110084,
+    "availabilities": [
+      {
+        "availability": "AVAILABLE",
+        "reasons": [],
+        "sku": 4394110084,
+        "source": "sds"
+      }
+    ]
+  },
+  "description": {
+    "result": {
+      "id": 4690623631,
+      "offer_id": "Ц0081444",
+      "name": "Шкаф распашной ДСВ Мори МШ900.1 белый, 90 см, 2 двери, 2 ящика",
+      "description": "Распашной шкаф ДСВ Мори МШ900.1 белый, 90×180×50 см — для спальни и детской. 2 двери, 2 ящика, полки и штанга для одежды. Корпус ЛДСП, фасады без ручек. Серия «Мори»: кровать, комод, тумба в одном стиле. Вес 79,9 кг, разбор, фурнитура, инструкция. Производитель ДСВ, Пенза, Россия, гарантия 18 мес. Подойдёт, если нужен белый шкаф 90 см с ящиками и штангой для компактной комнаты."
+    }
+  }
+}

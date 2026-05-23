@@ -17,37 +17,28 @@ alwaysApply: true
 
 1. `cards/{АРТ}/` — `{АРТ}.md`, `{АРТ}.row.json`, `ozon-category-ids.json`, `images-manifest.json`
 2. Wordstat → `#Хештеги`, `_meta.wordstat`
-3. **7 фото 3:4** — MCP `gpt-image-2`, `aspect_ratio: "3:4"`, `resolution: "2K"`; референс с дилера в `input_urls`
-4. Сразу: `py scripts/download_image.py URL cards/{АРТ}/images/0N-….png`
-5. `git add` + `git push` → `py scripts/apply_hosting_urls.py {АРТ}`
-6. `py scripts/build_rich_content.py {АРТ}` (сборщик `@register` в скрипте)
-7. `py scripts/validate_ozon_card.py {АРТ}` — без 7 фото **стоп**
-8. `py scripts/ozon_api_import.py {АРТ}` → `ozon_api_product_status.py {АРТ}`
+3. **10 фото 3:4** — MCP `gpt-image-2`, `aspect_ratio: "3:4"`, `resolution: "2K"`; референс с дилера в `input_urls`
+4. **Кухня:** слоты 08–10 — газовая+духовка, электрическая, индукционная плита (см. `ozon-photo-series-10.mdc`)
+5. Сразу: `py scripts/download_image.py URL cards/{АРТ}/images/0N-….png`
+6. `git add` + `git push` → `py scripts/apply_hosting_urls.py {АРТ}`
+7. `py scripts/build_rich_content.py {АРТ}`
+8. `py scripts/validate_ozon_card.py {АРТ}` — без **10** фото **стоп**
+9. `py scripts/build_video_cover.py {АРТ}` → push → `Озон.Видеообложка: ссылка` в row.json
+10. `py scripts/ozon_api_import.py {АРТ}` → `ozon_api_product_status.py {АРТ}`
 
-При ошибках атрибутов — значения только из справочника Ozon (`/v1/description-category/attribute/values/search`). Типично: ТН ВЭД, Гарантия, Комплектация (одна строка без `;`).
+**Главное фото:** i2i от дилера, не «пустой» AI-рендер (см. `ozon-content-rating.mdc`).
 
-Rich JSON: `.cursor/rules/ozon-rich-content-json.mdc`.
+При ошибках атрибутов — справочник Ozon (`attribute/values/search`).
 
-## Фото (7 слотов)
-
-`01-main` … `07-utp` — см. `docs/ozon-photo-series.md`, промпты `docs/prompts-by-category.md`.
-
-| Слот | Содержание |
-|------|------------|
-| 01-main | товар на белом/светлом фоне, без людей |
-| 02-infographic | размеры, материалы, русские подписи |
-| 03-lifestyle | человек в спальне/интерьере |
-| 04-details | фурнитура, кромка, ящики |
-| 05-angle | ракурс 3/4 |
-| 06-layout | комплектация / ящики / основание |
-| 07-utp | одно УТП (хранение, основание, серия) |
+Rich JSON: `.cursor/rules/ozon-rich-content-json.mdc`.  
+Фото: `.cursor/rules/ozon-photo-series-10.mdc`, `scripts/photo_series.py`.
 
 ## Без загрузки в Ozon
 
-- меньше 7 фото
-- Rich не собран через `build_rich_content.py`
-- категория не из ветки **Мебель**
+- меньше 10 фото
+- Rich не собран
+- категория не **Мебель**
 
 ## После API
 
-Напомнить: остатки FBS в ЛК, шаблон Excel из ЛК в `templates/` если ещё нет.
+Остатки FBS в ЛК, шаблон Excel в `templates/` если нет.

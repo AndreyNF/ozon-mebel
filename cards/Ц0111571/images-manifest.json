@@ -1,27 +1,36 @@
-{
-  "article": "Ц0111571",
-  "manufacturer_article_fixed": true,
-  "aspect_ratio": "3:4",
-  "image_files": [
-    "01-main.png",
-    "02-infographic.png",
-    "03-lifestyle.png",
-    "04-details.png",
-    "05-angle.png",
-    "06-layout.png",
-    "07-utp.png"
-  ],
-  "slots": [
-    {"file": "01-main.png", "role": "main", "type": "Главное"},
-    {"file": "02-infographic.png", "role": "extra", "type": "Инфографика"},
-    {"file": "03-lifestyle.png", "role": "extra", "type": "Lifestyle"},
-    {"file": "04-details.png", "role": "extra", "type": "Детали"},
-    {"file": "05-angle.png", "role": "extra", "type": "Ракурс 3/4"},
-    {"file": "06-layout.png", "role": "extra", "type": "Планировка модулей"},
-    {"file": "07-utp.png", "role": "extra", "type": "УТП 2 м"}
-  ],
-  "sources": [
-    "https://33komoda.ru/catalog/kukhonnye_garnitury_1/kukhnya_fortuna_2_0_m_seryy_grafit/",
-    "https://dsv-mebel.ru/mebel/gotovye-resheniya-kuhni-2-0-m-fortuna-kopirovat/"
-  ]
-}
+{
+  "article": "Ц0111571",
+  "manufacturer_article_fixed": true,
+  "aspect_ratio": "3:4",
+  "required_count": 10,
+  "image_files": [
+    "01-main.png",
+    "02-infographic.png",
+    "03-lifestyle.png",
+    "04-details.png",
+    "05-angle.png",
+    "06-layout.png",
+    "07-utp.png",
+    "08-cooktop-gas.png",
+    "09-cooktop-electric.png",
+    "10-cooktop-induction.png"
+  ],
+  "slots": [
+    {"file": "01-main.png", "role": "main", "type": "Главное"},
+    {"file": "02-infographic.png", "role": "extra", "type": "Инфографика"},
+    {"file": "03-lifestyle.png", "role": "extra", "type": "Lifestyle"},
+    {"file": "04-details.png", "role": "extra", "type": "Детали"},
+    {"file": "05-angle.png", "role": "extra", "type": "Ракурс 3/4"},
+    {"file": "06-layout.png", "role": "extra", "type": "Планировка модулей"},
+    {"file": "07-utp.png", "role": "extra", "type": "УТП 2 м"},
+    {"file": "08-cooktop-gas.png", "role": "extra", "type": "Газовая плита+духовка"},
+    {"file": "09-cooktop-electric.png", "role": "extra", "type": "Электрическая плита"},
+    {"file": "10-cooktop-induction.png", "role": "extra", "type": "Индукционная плита"}
+  ],
+  "video_cover": "video/video-cover.mp4",
+  "sources": [
+    "https://33komoda.ru/catalog/kukhonnye_garnitury_1/kukhnya_fortuna_2_0_m_seryy_grafit/",
+    "https://dsv-mebel.ru/mebel/gotovye-resheniya-kuhni-2-0-m-fortuna-kopirovat/"
+  ]
+}
+
