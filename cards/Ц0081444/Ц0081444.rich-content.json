@@ -27,8 +27,8 @@
         {
           "imgLink": "",
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png",
             "alt": "Шкаф белый 90 см ДСВ Мори — инфографика",
             "width": 1240,
             "height": 1656,
@@ -64,8 +64,8 @@
       "blocks": [
         {
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
             "alt": "Белый шкаф Мори 90 см в спальне",
             "width": 768,
             "height": 1024,
@@ -93,8 +93,8 @@
         },
         {
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-layout.png",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-layout.png",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png",
             "alt": "Шкаф распашной 2 двери — наполнение",
             "width": 768,
             "height": 1024,
@@ -122,8 +122,8 @@
         },
         {
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
             "alt": "Габариты шкафа МШ900.1",
             "width": 1000,
             "height": 667,
@@ -151,8 +151,8 @@
         },
         {
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
             "alt": "Шкаф в интерьере комнаты",
             "width": 1000,
             "height": 667,
@@ -187,8 +187,8 @@
         {
           "imgLink": "",
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png",
             "alt": "Шкаф Мори белый — главное фото",
             "width": 768,
             "height": 1024,
@@ -201,8 +201,8 @@
         {
           "imgLink": "",
           "img": {
-            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/10-angle-ai.png",
-            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/10-angle-ai.png",
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png",
             "alt": "Шкаф белый 90 см — ракурс",
             "width": 768,
             "height": 1024,
@@ -213,11 +213,6 @@
           }
         }
       ]
-    },
-    {
-      "widgetName": "raVideo",
-      "type": "youtube",
-      "youtubeVideoId": "WpW8Ssc7C4U"
     },
     {
       "widgetName": "raTextBlock",

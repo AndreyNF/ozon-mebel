@@ -50,6 +50,12 @@ def main() -> None:
     row["images"] = urls
     row["image_files"] = files
 
+    video_path = card / "video" / "video-cover.mp4"
+    if video_path.exists():
+        row["Озон.Видеообложка: ссылка"] = public_url(
+            base, f"cards/{article}/video/video-cover.mp4"
+        )
+
     row_path.write_text(json.dumps(row, ensure_ascii=False, indent=2), encoding="utf-8")
 
     build = ROOT / "scripts" / "build_upload_excel.py"

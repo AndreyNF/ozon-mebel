@@ -16,7 +16,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main"
+BASE = "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main"
 
 BUILDERS = {}
 
@@ -210,11 +210,6 @@ def build_wardrobe(article: str) -> dict:
                     roll_block(u("01-main.png"), 768, 1024, "Шкаф Мори белый — главное фото"),
                     roll_block(u("10-angle-ai.png"), 768, 1024, "Шкаф белый 90 см — ракурс"),
                 ],
-            },
-            {
-                "widgetName": "raVideo",
-                "type": "youtube",
-                "youtubeVideoId": "WpW8Ssc7C4U",
             },
             text_block(
                 "Комплектация и гарантия",

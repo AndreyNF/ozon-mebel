@@ -16,17 +16,17 @@
       "height": 14,
       "depth": 186,
       "dimension_unit": "cm",
-      "primary_image": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png",
+      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png",
       "images": [
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/03-lifestyle-woman.png",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-layout.png",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/10-angle-ai.png",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-cutaway-ref.jpg",
-        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/06-angle-ref.jpg"
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/03-lifestyle-woman.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-cutaway-ref.jpg",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/06-angle-ref.jpg"
       ],
       "attributes": [
         {
@@ -106,7 +106,7 @@
           "id": 22232,
           "values": [
             {
-              "value": "9403601009"
+              "value": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат"
             }
           ]
         },
@@ -142,7 +142,7 @@
           "id": 11254,
           "values": [
             {
-              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Шкаф белый 90 см Мори МШ900.1 — распашной, 2 двери, 2 ящика\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Распашной шкаф для одежды ДСВ 90x180 см: белый ЛДСП, штанга, полки, выдвижные ящики. Подходит для спальни, детской и комнаты подростка. Серия Мори — единый стиль комнаты.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/02-infographic.png\",\"alt\":\"Шкаф белый 90 см ДСВ Мори — инфографика\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Белый шкаф 90 см: преимущества Мори МШ900.1\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"90 см ширина — встраивается в небольшую комнату.\",\"2 двери и 2 ящика — одежда и мелочи отдельно.\",\"Белый минимализм без ручек облегчает интерьер.\",\"ЛДСП корпус и фасады — практично каждый день.\",\"Серия Мори — соберите комнату в одном стиле.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-couple.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-couple.png\",\"alt\":\"Белый шкаф Мори 90 см в спальне\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Шкаф для спальни в интерьере\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Белый распашной шкаф 90 см смотрится легко в современной спальне.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-layout.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-interior-layout.png\",\"alt\":\"Шкаф распашной 2 двери — наполнение\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Планировка шкафа для одежды\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Слева полки, справа штанга. Внизу 2 выдвижных ящика на направляющих.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/05-dimensions-ref.jpg\",\"alt\":\"Габариты шкафа МШ900.1\",\"width\":1000,\"height\":667,\"widthMobile\":750,\"heightMobile\":500},\"imgLink\":\"\",\"title\":{\"content\":[\"Размеры 180x90x50 см\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Высота 1800 мм, ширина 904 мм, глубина 504 мм. Вес 79,9 кг.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg\",\"alt\":\"Шкаф в интерьере комнаты\",\"width\":1000,\"height\":667,\"widthMobile\":750,\"heightMobile\":500},\"imgLink\":\"\",\"title\":{\"content\":[\"Модульная серия Мори\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Шкаф сочетается с кроватью, комодом и тумбой серии Мори.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/01-main.png\",\"alt\":\"Шкаф Мори белый — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/10-angle-ai.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/images/10-angle-ai.png\",\"alt\":\"Шкаф белый 90 см — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raVideo\",\"type\":\"youtube\",\"youtubeVideoId\":\"WpW8Ssc7C4U\"},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и гарантия\",\"В комплекте: корпус, фасады, полки, штанга, направляющие, крепёж, подпятники, инструкция. Поставка в разборе. Производитель ДСВ, Пенза, Россия. Гарантия 18 месяцев.\"]}}]}"
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Шкаф белый 90 см Мори МШ900.1 — распашной, 2 двери, 2 ящика\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Распашной шкаф для одежды ДСВ 90x180 см: белый ЛДСП, штанга, полки, выдвижные ящики. Подходит для спальни, детской и комнаты подростка. Серия Мори — единый стиль комнаты.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png\",\"alt\":\"Шкаф белый 90 см ДСВ Мори — инфографика\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Белый шкаф 90 см: преимущества Мори МШ900.1\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"90 см ширина — встраивается в небольшую комнату.\",\"2 двери и 2 ящика — одежда и мелочи отдельно.\",\"Белый минимализм без ручек облегчает интерьер.\",\"ЛДСП корпус и фасады — практично каждый день.\",\"Серия Мори — соберите комнату в одном стиле.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png\",\"alt\":\"Белый шкаф Мори 90 см в спальне\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Шкаф для спальни в интерьере\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Белый распашной шкаф 90 см смотрится легко в современной спальне.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png\",\"alt\":\"Шкаф распашной 2 двери — наполнение\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Планировка шкафа для одежды\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Слева полки, справа штанга. Внизу 2 выдвижных ящика на направляющих.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg\",\"alt\":\"Габариты шкафа МШ900.1\",\"width\":1000,\"height\":667,\"widthMobile\":750,\"heightMobile\":500},\"imgLink\":\"\",\"title\":{\"content\":[\"Размеры 180x90x50 см\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Высота 1800 мм, ширина 904 мм, глубина 504 мм. Вес 79,9 кг.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg\",\"alt\":\"Шкаф в интерьере комнаты\",\"width\":1000,\"height\":667,\"widthMobile\":750,\"heightMobile\":500},\"imgLink\":\"\",\"title\":{\"content\":[\"Модульная серия Мори\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Шкаф сочетается с кроватью, комодом и тумбой серии Мори.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png\",\"alt\":\"Шкаф Мори белый — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png\",\"alt\":\"Шкаф белый 90 см — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и гарантия\",\"В комплекте: корпус, фасады, полки, штанга, направляющие, крепёж, подпятники, инструкция. Поставка в разборе. Производитель ДСВ, Пенза, Россия. Гарантия 18 месяцев.\"]}}]}"
             }
           ]
         },
@@ -169,7 +169,7 @@
           "id": 10400,
           "values": [
             {
-              "value": "Гарантия производителя ДСВ — 18 месяцев"
+              "value": "18 месяцев"
             }
           ]
         },
@@ -223,31 +223,13 @@
           "id": 6712,
           "values": [
             {
-              "value": "2 распашные двери"
+              "value": "С полками"
             },
             {
-              "value": "2 выдвижных ящика"
+              "value": "С ящиками"
             },
             {
-              "value": "без лицевой фурнитуры"
-            },
-            {
-              "value": "система открывания push-to-open"
-            },
-            {
-              "value": "роликовые направляющие"
-            },
-            {
-              "value": "поперечная штанга для одежды"
-            },
-            {
-              "value": "полки"
-            },
-            {
-              "value": "модульная серия Мори"
-            },
-            {
-              "value": "минималистичный дизайн"
+              "value": "Со штангой"
             }
           ]
         },
@@ -322,13 +304,7 @@
           "id": 4384,
           "values": [
             {
-              "value": "Шкаф Мори МШ900.1 белый"
-            },
-            {
-              "value": "фурнитура"
-            },
-            {
-              "value": "инструкция по сборке"
+              "value": "Шкаф Мори МШ900.1 белый, фурнитура, инструкция по сборке"
             }
           ]
         },
@@ -337,7 +313,7 @@
           "id": 21845,
           "values": [
             {
-              "value": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60081444/video/video-cover.mp4"
+              "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/video/video-cover.mp4"
             }
           ]
         }

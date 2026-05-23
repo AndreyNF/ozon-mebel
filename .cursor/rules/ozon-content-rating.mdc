@@ -21,6 +21,8 @@ alwaysApply: true
 
 - YouTube в Rich **не засчитывается** в контент-рейтинг «Медиа».
 - Обязательно: **`Озон.Видеообложка: ссылка`** — MP4/MOV, **8–30 сек**, до **20 МБ**, HTTPS.
+- **CDN:** `hosting.config.json` → **jsDelivr** (`video/mp4`). GitHub raw отдаёт `octet-stream` — Ozon часто отклоняет.
+- **Без `?v=` в URL** — Ozon не скачивает с query-string.
 - Сборка: `py scripts/build_video_cover.py {АРТ}` → `cards/{АРТ}/video/video-cover.mp4` → push GitHub → поле в `row.json` → import.
 - После замены бинарника без смены URL — добавить `?v=YYYYMMDD` к URL фото/видео, иначе Ozon **skipped**.
 

@@ -168,7 +168,28 @@ def build(
     size_mb = dest.stat().st_size / (1024 * 1024)
     if size_mb > 20:
         raise SystemExit(f"Файл {size_mb:.1f} МБ — лимит Ozon 20 МБ")
+    _faststart(dest)
+    size_mb = dest.stat().st_size / (1024 * 1024)
     print(f"OK {dest} ({size_mb:.2f} MB, {duration:.0f}s, {width}x{height}, {n} slides)")
+
+
+def _faststart(path: Path) -> None:
+    """Перенос moov atom в начало — лучше для стриминга Ozon."""
+    try:
+        import imageio_ffmpeg
+        import subprocess
+        import tempfile
+
+        ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
+        tmp = path.with_suffix(".faststart.mp4")
+        subprocess.run(
+            [ffmpeg, "-y", "-i", str(path), "-c", "copy", "-movflags", "+faststart", str(tmp)],
+            check=True,
+            capture_output=True,
+        )
+        tmp.replace(path)
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN faststart: {exc}")
 
 
 def video_public_url(article: str, base: str) -> str:
