@@ -8,6 +8,8 @@
 Конкурент Ozon: https://www.ozon.ru/product/...
 Комната: Детская
 
+Сначала: `py scripts/card_registry.py check Ц0081444` (если DUPLICATE — только обновление, без новых фото)
+
 Сделай:
 1) /core по нише «шкаф белый 90 см распашной» если нет готового research/semantic-core-runs
 2) artyom → Ц0081444.research.md

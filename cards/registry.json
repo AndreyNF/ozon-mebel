@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "comment": "Реестр выпущенных карточек. Перед /shurik: py scripts/card_registry.py check {АРТИКУЛ}",
+  "articles": {
+    "Ц0081444": {
+      "article": "Ц0081444",
+      "status": "ready",
+      "created_at": "2026-05-21",
+      "updated_at": "2026-05-23",
+      "path": "cards/Ц0081444",
+      "note": "Эталонная карточка Mori MSH900.1 — не перегенерировать без запроса",
+      "artifacts": {
+        "row_json": true,
+        "md": true,
+        "images": 9,
+        "xlsx": [],
+        "api_upload": null
+      }
+    }
+  }
+}

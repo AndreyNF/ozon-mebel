@@ -23,6 +23,15 @@
 
 Плюс: **поставщик**, **производитель**, конкурент Ozon, комната.
 
+**Перед новой карточкой** — проверка дубля (не тратить генерацию зря):
+
+```bash
+py scripts/card_registry.py check {АРТИКУЛ}
+```
+
+`docs/card-deduplication.md` · реестр `cards/registry.json`
+
+
 ## Пример
 
 ```text

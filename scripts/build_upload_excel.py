@@ -92,6 +92,18 @@ def main() -> None:
     wb.save(out)
     print(str(out))
 
+    try:
+        import subprocess
+
+        subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "card_registry.py"), "register", article, "--status", "ready"],
+            cwd=ROOT,
+            check=False,
+            capture_output=True,
+        )
+    except Exception:
+        pass
+
 
 if __name__ == "__main__":
     main()

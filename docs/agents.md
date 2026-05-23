@@ -13,6 +13,10 @@
 
 Подробная схема Nero (что взяли / что нет): **`docs/nero-ozon-agents.md`**.
 
+## Антидубли
+
+`py scripts/card_registry.py check {АРТИКУЛ}` — `docs/card-deduplication.md`.
+
 ## Типовой пайплайн одной карточки
 
 ```text
