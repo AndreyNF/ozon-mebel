@@ -24,6 +24,8 @@ alwaysApply: true
 7. `py scripts/validate_ozon_card.py {АРТ}` — без 7 фото **стоп**
 8. `py scripts/ozon_api_import.py {АРТ}` → `ozon_api_product_status.py {АРТ}`
 
+При ошибках атрибутов — значения только из справочника Ozon (`/v1/description-category/attribute/values/search`). Типично: ТН ВЭД, Гарантия, Комплектация (одна строка без `;`).
+
 Rich JSON: `.cursor/rules/ozon-rich-content-json.mdc`.
 
 ## Фото (7 слотов)

@@ -1,0 +1,230 @@
+{
+  "version": 0.3,
+  "content": [
+    {
+      "widgetName": "raTextBlock",
+      "title": {
+        "content": [
+          "Кровать MLK Лори 140x200 — ящики и ортопедическое основание"
+        ],
+        "size": "size4",
+        "align": "left",
+        "color": "color1"
+      },
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Двуспальная кровать 140x200 см: корпус ЛДСП, отделка дуб серый/белый. Два выдвижных ящика, ортопедическое основание в комплекте. Матрас продается отдельно."
+        ]
+      }
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "billboard",
+      "blocks": [
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png",
+            "alt": "Кровать Лори 140x200 — инфографика",
+            "width": 1240,
+            "height": 1656,
+            "widthMobile": 750,
+            "heightMobile": 1001
+          },
+          "title": {
+            "content": [
+              "Кровать 140x200: размеры и комплектация"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Спальное место 1400 x 2000 мм.",
+              "Габариты 1450 x 850 x 2052 мм.",
+              "2 выдвижных ящика для хранения.",
+              "Ортопедическое основание в комплекте.",
+              "Артикул производителя Ц0050573."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "chess",
+      "blocks": [
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png",
+            "alt": "Кровать Лори в интерьере спальни",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Кровать в современной спальне"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Серый дуб и белый корпус — спокойный интерьер для взрослой и подростковой комнаты."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png",
+            "alt": "Комплектация кровати с ящиками",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Ящики и основание"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Два ящика на шариковых направляющих. Ортопедическое основание без подъемного механизма."
+            ]
+          },
+          "reverse": true
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png",
+            "alt": "Детали корпуса ЛДСП",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Материалы и фурнитура"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Корпус ЛДСП 16 мм, кромка ПВХ. Открывание push-to-open без ручек."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png",
+            "alt": "Модульная спальня Лори",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Серия Лори MLK"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Сочетается с комодом, шкафом и тумбой серии Лори в одном стиле."
+            ]
+          },
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "roll",
+      "blocks": [
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png",
+            "alt": "Кровать Лори — главное фото",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        },
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png",
+            "alt": "Кровать Лори — ракурс",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raTextBlock",
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Комплектация и доставка",
+          "В комплекте: каркас, основание, ящики, фурнитура, инструкция. 4 упаковки, разбор. Матрас не входит. Производитель MLK, Можга, Россия. Гарантия 18 месяцев."
+        ]
+      }
+    }
+  ]
+}

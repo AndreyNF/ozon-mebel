@@ -1,0 +1,321 @@
+{
+  "items": [
+    {
+      "offer_id": "Ц0050573",
+      "name": "Кровать MLK Лори 140x200 см, с ящиками, ортопедическое основание, дуб серый/белый",
+      "description_category_id": 17027917,
+      "type_id": 94995,
+      "new_description_category_id": 0,
+      "price": "18990",
+      "old_price": "21990",
+      "currency_code": "RUB",
+      "vat": "0",
+      "weight": 70350,
+      "weight_unit": "g",
+      "width": 102,
+      "height": 87,
+      "depth": 204,
+      "dimension_unit": "cm",
+      "primary_image": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png",
+      "images": [
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png",
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png",
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png",
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png",
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png",
+        "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png"
+      ],
+      "attributes": [
+        {
+          "complex_id": 0,
+          "id": 85,
+          "values": [
+            {
+              "value": "MLK"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9048,
+          "values": [
+            {
+              "value": "Lori 140"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10097,
+          "values": [
+            {
+              "value": "Дуб серый/белый"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10096,
+          "values": [
+            {
+              "value": "серый"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10175,
+          "values": [
+            {
+              "value": "145"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10231,
+          "values": [
+            {
+              "value": "205"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10174,
+          "values": [
+            {
+              "value": "85"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6678,
+          "values": [
+            {
+              "value": "140"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6679,
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 8229,
+          "values": [
+            {
+              "value": "Двуспальная кровать"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22232,
+          "values": [
+            {
+              "value": "9403500009 - Прочая мебель деревянная типа спальной"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23249,
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23171,
+          "values": [
+            {
+              "value": "#кровать #кровать140x200 #кроватьс_ящиками #кроватьдвуспальная #кроватьортопедическая #кроватьлори #mlk #мебельдляспальни #кроватьсоснованием #кроватьсвыдвижнымиящиками #спальня #лдсп #кроватьможга #мебельроссия #дубсерый #кроватьбелая #кровать140 #двуспальнаякровать #модульнаяспальня #кроватьбезматраса #ортопедическоеоснование #кроватьсбельевымящиком #современнаякровать #мебельмлк"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4191,
+          "values": [
+            {
+              "value": "Кровать MLK Лори 140x200 см с двумя выдвижными ящиками и ортопедическим основанием. Корпус ЛДСП, отделка дуб серый/белый. Габариты 85x145x205 см. Без подъёмного механизма, матрас не входит. Вес 70 кг, 4 упаковки, разбор, инструкция. Производитель МЛК, Можга, Россия. Серия Лори — комод и шкаф в одном стиле. Подойдёт для спальни и подростковой комнаты."
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11254,
+          "values": [
+            {
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Кровать MLK Лори 140x200 — ящики и ортопедическое основание\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Двуспальная кровать 140x200 см: корпус ЛДСП, отделка дуб серый/белый. Два выдвижных ящика, ортопедическое основание в комплекте. Матрас продается отдельно.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png\",\"alt\":\"Кровать Лори 140x200 — инфографика\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Кровать 140x200: размеры и комплектация\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Спальное место 1400 x 2000 мм.\",\"Габариты 1450 x 850 x 2052 мм.\",\"2 выдвижных ящика для хранения.\",\"Ортопедическое основание в комплекте.\",\"Артикул производителя Ц0050573.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png\",\"alt\":\"Кровать Лори в интерьере спальни\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Кровать в современной спальне\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Серый дуб и белый корпус — спокойный интерьер для взрослой и подростковой комнаты.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png\",\"alt\":\"Комплектация кровати с ящиками\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Ящики и основание\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Два ящика на шариковых направляющих. Ортопедическое основание без подъемного механизма.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png\",\"alt\":\"Детали корпуса ЛДСП\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Материалы и фурнитура\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Корпус ЛДСП 16 мм, кромка ПВХ. Открывание push-to-open без ручек.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png\",\"alt\":\"Модульная спальня Лори\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Серия Лори MLK\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Сочетается с комодом, шкафом и тумбой серии Лори в одном стиле.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png\",\"alt\":\"Кровать Лори — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png\",\"srcMobile\":\"https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png\",\"alt\":\"Кровать Лори — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и доставка\",\"В комплекте: каркас, основание, ящики, фурнитура, инструкция. 4 упаковки, разбор. Матрас не входит. Производитель MLK, Можга, Россия. Гарантия 18 месяцев.\"]}}]}"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22390,
+          "values": [
+            {
+              "value": "Лори"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4385,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10400,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6656,
+          "values": [
+            {
+              "value": "ЛДСП"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6657,
+          "values": [
+            {
+              "value": "Ламинированное"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9546,
+          "values": [
+            {
+              "value": "Современный"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10596,
+          "values": [
+            {
+              "value": "В разобранном виде"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11650,
+          "values": [
+            {
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22073,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22270,
+          "values": [
+            {
+              "value": "Фабричное производство"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4389,
+          "values": [
+            {
+              "value": "Россия"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4384,
+          "values": [
+            {
+              "value": "Кровать с ортопедическим основанием и ящиками"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4383,
+          "values": [
+            {
+              "value": "69800"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9818,
+          "values": [
+            {
+              "value": "Нет"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9819,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11213,
+          "values": [
+            {
+              "value": "Нет"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10276,
+          "values": [
+            {
+              "value": "Ортопедические ламели"
+            }
+          ]
+        }
+      ],
+      "complex_attributes": []
+    }
+  ]
+}
