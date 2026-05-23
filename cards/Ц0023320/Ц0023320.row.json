@@ -12,8 +12,8 @@
   "Ширина упаковки, мм*": 900,
   "Высота упаковки, мм*": 2000,
   "Длина упаковки, мм*": 2100,
-  "Ссылка на главное фото*": "",
-  "Ссылки на дополнительные фото": "",
+  "Ссылка на главное фото*": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/01-main.png",
+  "Ссылки на дополнительные фото": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/02-infographic.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/03-lifestyle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/04-details.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/05-angle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/06-layout.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/07-utp.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/08-interior.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/09-dimensions.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/10-series.png",
   "Ссылки на фото 360": "",
   "Артикул фото": "C0023320-main",
   "Бренд*": "Террикон",
@@ -21,7 +21,7 @@
   "Название цвета": "Молочный дуб/лайм",
   "Цвет товара": "бежевый",
   "Тип*": "Комплект детской мебели",
-  "ТН ВЭД коды ЕАЭС*": "9403601009 - Прочая мебель деревянная прочая",
+  "ТН ВЭД коды ЕАЭС*": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат",
   "Количество товара в УЕИ": 1,
   "Минимальное количество оптом": "",
   "#Хештеги": "#детскаямебель #комплектдетскоймебели #детскаякиви #террикон #мебельдлядетей #детскаякомната #молочныйдуб #лайм #детскийгарнитур #мебельпенза #мебельроссия #комплектмебели #детскаяспальня #шкафдетский #кроватьдетская #пеналдетский #тумbadляигрушек #модульнаядетская #набормебели #комплекткиви #детскаямебелькомплект #мебельлдсп #комнатадляребенка #гарнитурдетский #детскийкомплект",
@@ -99,5 +99,17 @@
     "08-interior.png",
     "09-dimensions.png",
     "10-series.png"
+  ],
+  "images": [
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/01-main.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/02-infographic.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/03-lifestyle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/04-details.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/05-angle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/06-layout.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/07-utp.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/08-interior.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/09-dimensions.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/10-series.png"
   ]
 }
