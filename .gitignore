@@ -11,3 +11,6 @@ cards/*/*.api-payload.json
 cards/*/*.api-upload.json
 series/upload-report-*.json
 research/semantic-core-runs/*/raw/
+
+.cursor/ozon-handoff/
+vendor/nero-network-office-page/

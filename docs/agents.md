@@ -1,36 +1,55 @@
 # Агенты проекта ozon-mebel
 
-| Агент | Команда | Задача |
-|-------|---------|--------|
-| **Шурик** | `/shurik` (см. README) | Продающие карточки Ozon: текст, фото, Excel/API |
-| **ЯДрышко (Core)** | `/core` | Семантическое ядро: Wordstat, кластеры, отчёт HTML/XLSX |
+Главная задача: **продающие карточки товара на Ozon** (мебель).
 
-## ЯДрышко — установка и обновление
+## Карта агентов
 
-Субагент из репозитория [Horosheff/yadryshko-semantic-core-subagent](https://github.com/Horosheff/yadryshko-semantic-core-subagent).
+| Агент | Команда / Task | Задача |
+|-------|----------------|--------|
+| **Шурик** | `/shurik` | Оркестратор: research → текст → фото → row.json → Excel/API |
+| **ЯДрышко (Core)** | `/core` | Wordstat, кластеры, HTML/XLSX в `research/semantic-core-runs/` |
+| **Артём** | Task `artyom` | Research: поставщик, производитель, конкуренты Ozon → `.research.md` |
+| **Женя Ozon** | Task `zhenya-ozon` | Продающее название, аннотация, FAQ, хештеги (не лонгрид) |
 
-**Уже в проекте:**
+Подробная схема Nero (что взяли / что нет): **`docs/nero-ozon-agents.md`**.
 
-- `.cursor/agents/core.md` — определение sub-agent
-- `docs/core-agent-playbook.md`, `docs/semantic-core-methodology.md`, …
-- `scripts/build_core_html_report.py`, `scripts/build_semantic_core_xlsx.py`
+## Типовой пайплайн одной карточки
 
-**Обновить до последней версии с GitHub:**
-
-```bash
-bash scripts/install-yadryshko.sh
+```text
+/shurik
+Артикул: Ц0081444
+Поставщик: https://...
+Производитель: https://...
+Конкурент Ozon: https://www.ozon.ru/product/...
+Комната: Детская
 ```
 
-После установки: перезагрузить окно Cursor (`Reload Window`), если `/core` не появился.
+1. **Core** (если нет семантики) — `/core` + ниша товара.
+2. **Артём** — `cards/Ц0081444/Ц0081444.research.md`.
+3. **Шурик** — row.json, фото (`gpt-image-2`), Rich, Excel.
+4. **Женя Ozon** — финальная вычитка продающих полей.
+
+## Установка и обновление
+
+| Пакет | Скрипт |
+|-------|--------|
+| ЯДрышко (Core) | `bash scripts/install-yadryshko.sh` |
+| Nero (Артём + skill) | `bash scripts/install-nero-ozon.sh` |
+
+После установки: **Reload Window** в Cursor.
 
 ## Wordstat
 
-- В Cursor Cloud: MCP **Kovcheg** (`wordstat_get_top_requests`, …).
-- Альтернатива: [MCP-KV Wordstat](https://mcp-kv.ru/docs/wordstat-mcp-setup) — `docs/mcp-kv-wordstat-setup.md`.
+MCP **Kovcheg** (`wordstat_get_top_requests`) — для Core и при необходимости для Артёма.  
+Альтернатива: [MCP-KV](https://mcp-kv.ru/docs/wordstat-mcp-setup) — `docs/mcp-kv-wordstat-setup.md`.
 
-## Связка Core → Шурик
+## Документы
 
-1. `/core` — собрать семантику по нише/товару (см. `docs/yadryshko-ozon-mebel.md`).
-2. `/shurik` — карточка с ключами из отчёта Core.
+- `docs/yadryshko-ozon-mebel.md` — Core + Шурик
+- `docs/nero-ozon-agents.md` — роли Nero Office
+- `docs/ozon-seo.md` — поля карточки
+- `examples/yadryshko-ozon-prompt.md` — примеры `/core`
 
-Примеры запросов: `examples/yadryshko-ozon-prompt.md`.
+## Что не установлено
+
+Полный [Nero Network Office](https://github.com/Horosheff/nero-network-office-page) (WordPress, hero, FTP, Директор, Коля, Юра…) — **отдельный продукт**, в ozon-mebel не нужен для карточек.
