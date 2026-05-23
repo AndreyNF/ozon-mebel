@@ -34,9 +34,10 @@
   ],
   "reference_local": "ref-dealer.jpg",
   "prompt_product": "MLK Lori bed 140x200 gray oak headboard white LDSP two drawers orthopedic slats",
-  "status": "regenerated_with_dealer_ref",
+  "status": "regenerated_dealer_i2i_main",
   "tool": "gpt-image-2",
   "generated_at": "2026-05-23",
+  "notes": "01-main и 05-angle перегенерированы i2i от allegro96 — AI-пустые ламели Ozon отклонил как фотозаглушку",
   "image_files": [
     "01-main.png",
     "02-infographic.png",
