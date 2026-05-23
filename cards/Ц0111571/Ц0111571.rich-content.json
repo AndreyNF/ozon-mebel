@@ -1,0 +1,219 @@
+{
+  "version": 0.3,
+  "content": [
+    {
+      "widgetName": "raTextBlock",
+      "title": {
+        "content": [
+          "Кухня Фортуна 2,0 м серый/графит — готовый комплект ДСВ"
+        ],
+        "size": "size4",
+        "align": "left",
+        "color": "color1"
+      },
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Модульный кухонный гарнитур 200 см: корпус ЛДСП серый, фасады МДФ с матовой ПВХ-плёнкой в оттенке графит. Напольные модули 600 мм, навесные 300 мм. Столешница и ручки — отдельно."
+        ]
+      }
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "billboard",
+      "blocks": [
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/02-infographic.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/02-infographic.png",
+            "alt": "Кухня Фортуна 2 м — размеры и материалы",
+            "width": 1240,
+            "height": 1656,
+            "widthMobile": 750,
+            "heightMobile": 1001
+          },
+          "title": "Кухня 2 метра: размеры и материалы",
+          "text": {
+            "content": [
+              "• Ширина комплекта 2000 мм",
+              "• Низ 600 мм / верх 300 мм глубина",
+              "• Корпус ЛДСП, фасады МДФ",
+              "• Модули: П800×2, П400, С800, СМ800, СЯШ400",
+              "• Артикул производителя Ц0111571"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "chess",
+      "blocks": [
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/03-lifestyle.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/03-lifestyle.png",
+            "alt": "Серая кухня Фортуна в интерьере",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Кухня в повседневном интерьере"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Компактная кухня 2 м для квартиры — современный серый/графит без ручек."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/06-layout.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/06-layout.png",
+            "alt": "Планировка модулей кухни Фортуна",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Состав комплекта 2,0 м"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Верх: 2×П800 + П400. Низ: С800, СМ800, СЯШ400. Ящики на шариковых направляющих."
+            ]
+          },
+          "reverse": true
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/04-details.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/04-details.png",
+            "alt": "Фасад МДФ графит — детали",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Качество фасадов и фурнитуры"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Матовая ПВХ-плёнка на МДФ, аккуратная кромка, петли и направляющие для ежедневной эксплуатации."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/07-utp.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/07-utp.png",
+            "alt": "Компактная кухня 2 метра",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "2 метра — для небольшой кухни"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Готовое решение Фортуна экономит место и даёт полный набор модулей для хранения и готовки."
+            ]
+          },
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "roll",
+      "blocks": [
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/01-main.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/01-main.png",
+            "alt": "Кухня Фортуна 2 м серый графит — главное фото",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        },
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/05-angle.png",
+            "srcMobile": "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A601115571/images/05-angle.png",
+            "alt": "Кухонный гарнитур Фортуна — ракурс",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raTextBlock",
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Комплектация и доставка",
+          "В комплекте: модули верхние и напольные, фурнитура, инструкция. Поставка в разборе. Столешница и ручки не входят. Производитель ДСВ, Пенза, Россия. Гарантия 24 месяца."
+        ]
+      }
+    }
+  ]
+}
