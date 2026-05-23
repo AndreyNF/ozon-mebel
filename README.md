@@ -27,6 +27,8 @@
 ozon-mebel/
 ├── templates/Комплекты мебели_21.05.2026.xlsx
 ├── docs/
+│   ├── shurik-instructions.md   ← промпт агента
+│   └── ozon-category-routing.md
 ├── scripts/fill_ozon_template.py
 └── cards/{АРТИКУЛ}/
     ├── {АРТИКУЛ}.md
