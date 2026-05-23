@@ -13,12 +13,22 @@ UA = (
 )
 
 
+from urllib.parse import quote, urlsplit, urlunsplit
+
+
+def normalize_url(url: str) -> str:
+    parts = urlsplit(url)
+    path = quote(parts.path, safe="/:%")
+    return urlunsplit((parts.scheme, parts.netloc, path, parts.query, parts.fragment))
+
+
 def download(url: str, dest: Path, retries: int = 3) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
+    fetch_url = normalize_url(url)
     last_err: Exception | None = None
     for attempt in range(1, retries + 1):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(fetch_url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=180) as resp, dest.open("wb") as f:
                 while True:
                     chunk = resp.read(1024 * 256)

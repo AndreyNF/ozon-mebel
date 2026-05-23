@@ -1,0 +1,230 @@
+{
+  "version": 0.3,
+  "content": [
+    {
+      "widgetName": "raTextBlock",
+      "title": {
+        "content": [
+          "Кровать Террикон Киви 80x160 — 2 ящика, молочный дуб/лайм"
+        ],
+        "size": "size4",
+        "align": "left",
+        "color": "color1"
+      },
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Односпальная детская кровать 80x160 см: корпус ЛДСП, акценты лайм. Два выдвижных ящика под спальным местом. Матрас продается отдельно."
+        ]
+      }
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "billboard",
+      "blocks": [
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png",
+            "alt": "Кровать Киви 80x160 — инфографика",
+            "width": 1240,
+            "height": 1656,
+            "widthMobile": 750,
+            "heightMobile": 1001
+          },
+          "title": {
+            "content": [
+              "Кровать 80x160: размеры и комплектация"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Спальное место 800 x 1600 мм.",
+              "Габариты 1630 x 850 x 700 мм.",
+              "2 выдвижных ящика для белья.",
+              "Шариковые направляющие.",
+              "Артикул производителя Ц0011713."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "chess",
+      "blocks": [
+        {
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png",
+            "alt": "Кровать Киви в детской",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Кровать в детской комнате"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Молочный дуб и лайм — свежий интерьер для ребенка и подростка."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png",
+            "alt": "Комплектация кровати Киви",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Комплектация"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Каркас, основание, 2 ящика, фурнитура, инструкция. Матрас не входит."
+            ]
+          },
+          "reverse": true
+        },
+        {
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png",
+            "alt": "Детали кровати Киви",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Материалы и направляющие"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "ЛДСП корпус, кромка ПВХ, шариковые направляющие ящиков."
+            ]
+          },
+          "reverse": false
+        },
+        {
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png",
+            "alt": "Ящики под кроватью Киви",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000
+          },
+          "imgLink": "",
+          "title": {
+            "content": [
+              "Хранение под кроватью"
+            ],
+            "size": "size4",
+            "align": "left",
+            "color": "color1"
+          },
+          "text": {
+            "size": "size2",
+            "align": "left",
+            "color": "color1",
+            "content": [
+              "Два ящика экономят место в небольшой детской комнате."
+            ]
+          },
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "widgetName": "raShowcase",
+      "type": "roll",
+      "blocks": [
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png",
+            "alt": "Кровать Киви — главное фото",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        },
+        {
+          "imgLink": "",
+          "img": {
+            "src": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png",
+            "srcMobile": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png",
+            "alt": "Кровать Киви — ракурс",
+            "width": 768,
+            "height": 1024,
+            "widthMobile": 750,
+            "heightMobile": 1000,
+            "position": "width_full",
+            "positionMobile": "width_full"
+          }
+        }
+      ]
+    },
+    {
+      "widgetName": "raTextBlock",
+      "text": {
+        "size": "size2",
+        "align": "left",
+        "color": "color1",
+        "content": [
+          "Комплектация и доставка",
+          "В комплекте: каркас, основание, ящики, фурнитура, инструкция. Разборная поставка. Матрас не входит. Производитель Террикон, Пенза, Россия. Гарантия 18 месяцев."
+        ]
+      }
+    }
+  ]
+}

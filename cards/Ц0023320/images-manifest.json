@@ -1,0 +1,31 @@
+{
+  "article": "Ц0023320",
+  "manufacturer_article_fixed": true,
+  "aspect_ratio": "3:4",
+  "required_count": 10,
+  "image_files": [
+    "01-main.png",
+    "02-infographic.png",
+    "03-lifestyle.png",
+    "04-details.png",
+    "05-angle.png",
+    "06-layout.png",
+    "07-utp.png",
+    "08-interior.png",
+    "09-dimensions.png",
+    "10-series.png"
+  ],
+  "slots": [
+    {"file": "01-main.png", "role": "main", "type": "Главное"},
+    {"file": "02-infographic.png", "role": "extra", "type": "Инфографика"},
+    {"file": "03-lifestyle.png", "role": "extra", "type": "Lifestyle"},
+    {"file": "04-details.png", "role": "extra", "type": "Детали"},
+    {"file": "05-angle.png", "role": "extra", "type": "Ракурс 3/4"},
+    {"file": "06-layout.png", "role": "extra", "type": "Комплектация"},
+    {"file": "07-utp.png", "role": "extra", "type": "УТП"},
+    {"file": "08-interior.png", "role": "extra", "type": "Интерьер"},
+    {"file": "09-dimensions.png", "role": "extra", "type": "Габариты"},
+    {"file": "10-series.png", "role": "extra", "type": "Серия"}
+  ],
+  "dealer_ref": "https://33komoda.ru/upload/iblock/f96/2dsz0vr6si3ngohsieduj8wbml5zhonz/варианты-модулей-2.jpg"
+}
