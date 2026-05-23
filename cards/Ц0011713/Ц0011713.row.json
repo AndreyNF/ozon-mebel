@@ -12,8 +12,8 @@
   "Ширина упаковки, мм*": 900,
   "Высота упаковки, мм*": 200,
   "Длина упаковки, мм*": 1700,
-  "Ссылка на главное фото*": "",
-  "Ссылки на дополнительные фото": "",
+  "Ссылка на главное фото*": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png",
+  "Ссылки на дополнительные фото": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/08-interior.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/09-dimensions.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/10-series.png",
   "Ссылки на фото 360": "",
   "Артикул фото": "C0011713-main",
   "Бренд*": "Террикон",
@@ -92,5 +92,17 @@
     "08-interior.png",
     "09-dimensions.png",
     "10-series.png"
+  ],
+  "images": [
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/08-interior.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/09-dimensions.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/10-series.png"
   ]
 }

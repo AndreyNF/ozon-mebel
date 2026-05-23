@@ -1,0 +1,234 @@
+{
+  "items": [
+    {
+      "offer_id": "Ц0023320",
+      "name": "Комплект детской мебели Террикон Киви набор №1, молочный дуб/лайм",
+      "description_category_id": 80770870,
+      "type_id": 95008,
+      "new_description_category_id": 0,
+      "price": "64990",
+      "old_price": "74990",
+      "currency_code": "RUB",
+      "vat": "0",
+      "weight": 120000,
+      "weight_unit": "g",
+      "width": 90,
+      "height": 200,
+      "depth": 210,
+      "dimension_unit": "cm",
+      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/01-main.png",
+      "images": [
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/02-infographic.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/03-lifestyle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/04-details.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/05-angle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/06-layout.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/07-utp.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/08-interior.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/09-dimensions.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/10-series.png"
+      ],
+      "attributes": [
+        {
+          "complex_id": 0,
+          "id": 85,
+          "values": [
+            {
+              "value": "Террикон"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9048,
+          "values": [
+            {
+              "value": "Киви набор 1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10097,
+          "values": [
+            {
+              "value": "Молочный дуб/лайм"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10096,
+          "values": [
+            {
+              "value": "бежевый"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 8229,
+          "values": [
+            {
+              "value": "Комплект детской мебели"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22232,
+          "values": [
+            {
+              "value": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23249,
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23171,
+          "values": [
+            {
+              "value": "#детскаямебель #комплектдетскоймебели #детскаякиви #террикон #мебельдлядетей #детскаякомната #молочныйдуб #лайм #детскийгарнитур #мебельпенза #мебельроссия #комплектмебели #детскаяспальня #шкафдетский #кроватьдетская #пеналдетский #тумbadляигрушек #модульнаядетская #набормебели #комплекткиви #детскаямебелькомплект #мебельлдсп #комнатадляребенка #гарнитурдетский #детскийкомплект"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4191,
+          "values": [
+            {
+              "value": "Комплект детской мебели Террикон Киви набор №1 в цвете молочный дуб/лайм. В составе: кровать 80x200, шкаф 800 мм 2 двери, пенал 2 ящика, тумба для игрушек, навесная секция. Корпус и фасады ЛДСП, шариковые направляющие. Модульная система — можно дополнять элементами серии Киви. Разборная поставка, инструкции. Производитель Террикон, Пенза. Подойдёт для детской комнаты мальчика или девочки."
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11254,
+          "values": [
+            {
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Комплект детской мебели Террикон Киви набор №1\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Модульная детская комната в цвете молочный дуб/лайм: кровать 80x200, шкаф, пенал, тумба для игрушек и навесная секция. Корпус ЛДСП, разборная поставка.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/02-infographic.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/02-infographic.png\",\"alt\":\"Комплект Киви — состав модулей\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Состав набора Киви №1\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Кровать 80x200 см.\",\"Шкаф 800 мм, 2 двери.\",\"Пенал 2 ящика.\",\"Тумба для игрушек.\",\"Навесная секция.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/03-lifestyle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/03-lifestyle.png\",\"alt\":\"Детская комната Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Готовая детская комната\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Полный комплект мебели в одном стиле — экономия времени на подбор модулей.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/06-layout.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/06-layout.png\",\"alt\":\"Модули набора Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"5 модулей в комплекте\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Кровать, шкаф, пенал, тумба и полка — все в цвете молочный дуб/лайм.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/04-details.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/04-details.png\",\"alt\":\"Детали мебели Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Фасады и фурнитура\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"ЛДСП, аккуратная кромка, шариковые направляющие ящиков.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/07-utp.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/07-utp.png\",\"alt\":\"Модульность Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Модульная система\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Дополняйте комнату другими элементами серии Киви по мере роста ребенка.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/01-main.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/01-main.png\",\"alt\":\"Комплект Киви — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/05-angle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/images/05-angle.png\",\"alt\":\"Комплект Киви — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и доставка\",\"5 модулей, фурнитура, инструкции. Поставка в разборе, 5 упаковок. Производитель Террикон, Пенза, Россия. Гарантия 18 месяцев.\"]}}]}"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22390,
+          "values": [
+            {
+              "value": "Киви"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4385,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10400,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9546,
+          "values": [
+            {
+              "value": "Современный"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10596,
+          "values": [
+            {
+              "value": "В разобранном виде"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11650,
+          "values": [
+            {
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22073,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22270,
+          "values": [
+            {
+              "value": "Фабричное производство"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4389,
+          "values": [
+            {
+              "value": "Россия"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4384,
+          "values": [
+            {
+              "value": "Кровать 80x200, шкаф 2 двери, пенал 2 ящика, тумба для игрушек, навесная секция, фурнитура, инструкции"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4383,
+          "values": [
+            {
+              "value": "115000"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 21845,
+          "values": [
+            {
+              "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/video/video-cover.mp4"
+            }
+          ]
+        }
+      ],
+      "complex_attributes": []
+    }
+  ]
+}

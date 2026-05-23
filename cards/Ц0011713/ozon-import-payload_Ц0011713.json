@@ -1,0 +1,378 @@
+{
+  "items": [
+    {
+      "offer_id": "Ц0011713",
+      "name": "Кровать Террикон Киви №4 80x160 см односпальная, 2 ящика, молочный дуб/лайм",
+      "description_category_id": 17027917,
+      "type_id": 970713329,
+      "new_description_category_id": 0,
+      "price": "18990",
+      "old_price": "21990",
+      "currency_code": "RUB",
+      "vat": "0",
+      "weight": 61000,
+      "weight_unit": "g",
+      "width": 90,
+      "height": 20,
+      "depth": 170,
+      "dimension_unit": "cm",
+      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png",
+      "images": [
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/08-interior.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/09-dimensions.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/10-series.png"
+      ],
+      "attributes": [
+        {
+          "complex_id": 0,
+          "id": 85,
+          "values": [
+            {
+              "value": "Террикон"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9048,
+          "values": [
+            {
+              "value": "Киви 80x160"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10097,
+          "values": [
+            {
+              "value": "Молочный дуб/лайм"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10096,
+          "values": [
+            {
+              "value": "бежевый"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10175,
+          "values": [
+            {
+              "value": "85"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10231,
+          "values": [
+            {
+              "value": "163"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10174,
+          "values": [
+            {
+              "value": "70"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6678,
+          "values": [
+            {
+              "value": "80"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6679,
+          "values": [
+            {
+              "value": "160"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 8229,
+          "values": [
+            {
+              "value": "Односпальная кровать"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22232,
+          "values": [
+            {
+              "value": "9403500009 - Прочая мебель деревянная типа спальной"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23249,
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23171,
+          "values": [
+            {
+              "value": "#кровать #кроватьдетская #кроватьодноспальная #кровать80x160 #кроватьс_ящиками #кроватькиви #террикон #детскаякомната #мебельдлядетей #односпальнаякровать #кроватьподростковая #лдсп #молочныйдуб #лайм #детскаямебель #кроватьпенза #мебельроссия #кроватьсвыдвижнымиящиками #кроватьбезматраса #сериякиви #комнатаребенка #кровать160 #кровать80 #модульнаядетская"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4191,
+          "values": [
+            {
+              "value": "Кровать Террикон Киви №4 односпальная 80x160 см с двумя выдвижными ящиками под спальным местом. Корпус ЛДСП, цвет молочный дуб и акцент лайм. Габариты 70x85x163 см, вес 60,6 кг. Шариковые направляющие ящиков, разборная поставка. Матрас не входит. Производитель Террикон, Пенза, Россия. Серия Киви — шкафы и модули в одном стиле. Подойдёт для детской и подростковой комнаты."
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11254,
+          "values": [
+            {
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Кровать Террикон Киви 80x160 — 2 ящика, молочный дуб/лайм\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Односпальная детская кровать 80x160 см: корпус ЛДСП, акценты лайм. Два выдвижных ящика под спальным местом. Матрас продается отдельно.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/02-infographic.png\",\"alt\":\"Кровать Киви 80x160 — инфографика\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Кровать 80x160: размеры и комплектация\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Спальное место 800 x 1600 мм.\",\"Габариты 1630 x 850 x 700 мм.\",\"2 выдвижных ящика для белья.\",\"Шариковые направляющие.\",\"Артикул производителя Ц0011713.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/03-lifestyle.png\",\"alt\":\"Кровать Киви в детской\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Кровать в детской комнате\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Молочный дуб и лайм — свежий интерьер для ребенка и подростка.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/06-layout.png\",\"alt\":\"Комплектация кровати Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Комплектация\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Каркас, основание, 2 ящика, фурнитура, инструкция. Матрас не входит.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/04-details.png\",\"alt\":\"Детали кровати Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Материалы и направляющие\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"ЛДСП корпус, кромка ПВХ, шариковые направляющие ящиков.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/07-utp.png\",\"alt\":\"Ящики под кроватью Киви\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Хранение под кроватью\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Два ящика экономят место в небольшой детской комнате.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/01-main.png\",\"alt\":\"Кровать Киви — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/images/05-angle.png\",\"alt\":\"Кровать Киви — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и доставка\",\"В комплекте: каркас, основание, ящики, фурнитура, инструкция. Разборная поставка. Матрас не входит. Производитель Террикон, Пенза, Россия. Гарантия 18 месяцев.\"]}}]}"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22390,
+          "values": [
+            {
+              "value": "Киви"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4385,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10400,
+          "values": [
+            {
+              "value": "18 месяцев"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6656,
+          "values": [
+            {
+              "value": "ЛДСП"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6657,
+          "values": [
+            {
+              "value": "Ламинированное"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9546,
+          "values": [
+            {
+              "value": "Современный"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10596,
+          "values": [
+            {
+              "value": "В разобранном виде"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11650,
+          "values": [
+            {
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22073,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22270,
+          "values": [
+            {
+              "value": "Фабричное производство"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4389,
+          "values": [
+            {
+              "value": "Россия"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4384,
+          "values": [
+            {
+              "value": "Кровать с двумя выдвижными ящиками, фурнитура, инструкция"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4383,
+          "values": [
+            {
+              "value": "60600"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9818,
+          "values": [
+            {
+              "value": "Нет"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9819,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11213,
+          "values": [
+            {
+              "value": "Нет"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10276,
+          "values": [
+            {
+              "value": "Ортопедические ламели"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6643,
+          "values": [
+            {
+              "value": "Без наполнителя"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6654,
+          "values": [
+            {
+              "value": "Без обивки"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6676,
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6682,
+          "values": [
+            {
+              "value": "45"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6683,
+          "values": [
+            {
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 21845,
+          "values": [
+            {
+              "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60011713/video/video-cover.mp4"
+            }
+          ]
+        }
+      ],
+      "complex_attributes": []
+    }
+  ]
+}
