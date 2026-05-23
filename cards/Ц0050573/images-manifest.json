@@ -2,7 +2,7 @@
   "article": "Ц0050573",
   "product": "Кровать MLK Лори 140x200, ящики, ортопедическое основание, дуб серый/белый",
   "aspect_ratio": "3:4",
-  "required_count": 7,
+  "required_count": 10,
   "files": [
     "01-main.png",
     "02-infographic.png",
@@ -10,19 +10,31 @@
     "04-details.png",
     "05-angle.png",
     "06-layout.png",
-    "07-utp.png"
+    "07-utp.png",
+    "08-interior.png",
+    "09-dimensions.png",
+    "10-series.png"
   ],
   "roles": [
     {"file": "01-main.png", "role": "main", "type": "Главное"},
     {"file": "02-infographic.png", "role": "extra", "type": "Инфографика"},
     {"file": "03-lifestyle.png", "role": "extra", "type": "Lifestyle"},
-    {"file": "04-details.png", "role": "extra", "type": "Детали"},
+    {"file": "04-details.png", "role": "extra", "type": "Детали ящика"},
     {"file": "05-angle.png", "role": "extra", "type": "Ракурс 3/4"},
     {"file": "06-layout.png", "role": "extra", "type": "Комплектация"},
-    {"file": "07-utp.png", "role": "extra", "type": "УТП ящики и основание"}
+    {"file": "07-utp.png", "role": "extra", "type": "УТП хранение"},
+    {"file": "08-interior.png", "role": "extra", "type": "Интерьер"},
+    {"file": "09-dimensions.png", "role": "extra", "type": "Габариты"},
+    {"file": "10-series.png", "role": "extra", "type": "Серия Лори"}
   ],
-  "prompt_product": "double bed Lori 140x200 cm gray oak and white LDSP, two storage drawers, orthopedic slatted base, modern bedroom furniture MLK",
-  "status": "generated",
+  "reference_urls": [
+    "https://33komoda.ru/catalog/krovati_i_osnovaniya/krovat_lori_1400_2000_mm_s_ortopedicheskim_osnovaniem_i_yashchikami_dub_seryy_belyy/",
+    "https://st.allegro96.ru/7/2872/682/-krovat__s_yashhikami-dub-ser_bel_kopiya.jpg",
+    "https://i4.storeland.net/2/9203/192024566/afacdb/krovat-lori-1200-2000-mm-s-ortopedicheskim-osnovaniem-i-yashhikami-dub-seryj-belyj.jpg"
+  ],
+  "reference_local": "ref-dealer.jpg",
+  "prompt_product": "MLK Lori bed 140x200 gray oak headboard white LDSP two drawers orthopedic slats",
+  "status": "regenerated_with_dealer_ref",
   "tool": "gpt-image-2",
   "generated_at": "2026-05-23",
   "image_files": [
@@ -32,6 +44,9 @@
     "04-details.png",
     "05-angle.png",
     "06-layout.png",
-    "07-utp.png"
+    "07-utp.png",
+    "08-interior.png",
+    "09-dimensions.png",
+    "10-series.png"
   ]
 }
