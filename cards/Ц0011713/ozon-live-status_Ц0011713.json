@@ -1,0 +1,143 @@
+{
+  "item": {
+    "id": 4719196784,
+    "name": "Кровать Террикон Киви №4 80x160 см односпальная, 2 ящика, молочный дуб/лайм",
+    "offer_id": "Ц0011713",
+    "is_archived": false,
+    "is_autoarchived": false,
+    "barcodes": [],
+    "description_category_id": 17027917,
+    "type_id": 970713329,
+    "created_at": "2026-05-23T18:14:44.208764Z",
+    "images": [
+      "https://cdn1.ozone.ru/s3/multimedia-1-e/10737981806.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-t/10737981785.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-7/10737980575.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-0/10737980748.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-3/10737980643.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-o/10737981384.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-l/10737981417.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-3/10737980859.jpg",
+      "https://cdn1.ozone.ru/s3/multimedia-1-o/10737980700.jpg"
+    ],
+    "currency_code": "RUB",
+    "min_price": "",
+    "old_price": "21990.00",
+    "price": "18990.00",
+    "sources": [
+      {
+        "sku": 4418139283,
+        "source": "sds",
+        "created_at": "2026-05-23T18:16:13.516328Z",
+        "shipment_type": "SHIPMENT_TYPE_GENERAL",
+        "quant_code": ""
+      }
+    ],
+    "model_info": {
+      "model_id": 1651368055,
+      "count": 1
+    },
+    "commissions": [
+      {
+        "delivery_amount": 25,
+        "percent": 37,
+        "return_amount": 1467,
+        "sale_schema": "FBO",
+        "value": 7026.3
+      },
+      {
+        "delivery_amount": 25,
+        "percent": 41,
+        "return_amount": 8524,
+        "sale_schema": "FBS",
+        "value": 7785.9
+      },
+      {
+        "percent": 41,
+        "sale_schema": "RFBS",
+        "value": 7785.9
+      },
+      {
+        "percent": 45,
+        "sale_schema": "FBP",
+        "value": 8545.5
+      }
+    ],
+    "is_prepayment_allowed": true,
+    "volume_weight": 61.2,
+    "has_discounted_fbo_item": false,
+    "is_discounted": false,
+    "discounted_fbo_stocks": 0,
+    "stocks": {
+      "has_stock": false,
+      "stocks": []
+    },
+    "errors": [],
+    "updated_at": "2026-05-23T18:16:21.353868Z",
+    "vat": "0.00",
+    "visibility_details": {
+      "has_price": true,
+      "has_stock": false
+    },
+    "price_indexes": {
+      "color_index": "COLOR_INDEX_WITHOUT_INDEX",
+      "external_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 0
+      },
+      "ozon_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 0
+      },
+      "self_marketplaces_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "RUB",
+        "price_index_value": 0
+      }
+    },
+    "images360": [],
+    "is_kgt": true,
+    "color_image": [],
+    "primary_image": [
+      "https://cdn1.ozone.ru/s3/multimedia-1-l/10737981777.jpg"
+    ],
+    "statuses": {
+      "status": "price_sent",
+      "status_failed": "",
+      "moderate_status": "approved",
+      "validation_status": "success",
+      "status_name": "Готов к продаже",
+      "status_description": "Нет на складе",
+      "is_created": true,
+      "status_tooltip": "Товар можно привезти на склад Ozon или указать его количество на своем складе",
+      "status_updated_at": "2026-05-23T18:16:14.074411Z"
+    },
+    "is_super": false,
+    "is_seasonal": false,
+    "promotions": [
+      {
+        "is_enabled": true,
+        "type": "REVIEWS_PROMO"
+      }
+    ],
+    "sku": 4418139283,
+    "availabilities": [
+      {
+        "availability": "AVAILABLE",
+        "reasons": [],
+        "sku": 4418139283,
+        "source": "sds"
+      }
+    ]
+  },
+  "description": {
+    "result": {
+      "id": 4719196784,
+      "offer_id": "Ц0011713",
+      "name": "Кровать Террикон Киви №4 80x160 см односпальная, 2 ящика, молочный дуб/лайм",
+      "description": "Кровать Террикон Киви №4 односпальная 80x160 см с двумя выдвижными ящиками под спальным местом. Корпус ЛДСП, цвет молочный дуб и акцент лайм. Габариты 70x85x163 см, вес 60,6 кг. Шариковые направляющие ящиков, разборная поставка. Матрас не входит. Производитель Террикон, Пенза, Россия. Серия Киви — шкафы и модули в одном стиле. Подойдёт для детской и подростковой комнаты."
+    }
+  }
+}
