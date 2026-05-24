@@ -58,6 +58,7 @@ py scripts/build_upload_excel.py {АРТИКУЛ}
 
 ## Источники семантики
 
-- Wordstat (MCP KV) — частотность
+- **ЯДрышко (`/core`)** — папка `research/semantic-core-runs/…`, файлы `04-keywords-clean.csv`, `05-clusters.csv` → см. `docs/yadryshko-ozon-mebel.md`
+- Wordstat — MCP **Kovcheg** или MCP-KV (`docs/mcp-kv-wordstat-setup.md`)
 - Топ-3 карточки конкурентов на Ozon — title + буллеты
 - Подсказки Ozon в шаблоне категории
