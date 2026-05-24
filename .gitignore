@@ -7,3 +7,7 @@ venv/
 ~$*
 cards/*/filled-template.xlsx
 cards/*/OZON_UPLOAD_*.xlsx
+cards/*/*.api-payload.json
+cards/*/*.api-upload.json
+series/upload-report-*.json
+research/semantic-core-runs/*/raw/

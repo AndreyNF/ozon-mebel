@@ -25,8 +25,10 @@
 
 ```
 ozon-mebel/
+├── .cursor/agents/core.md      ← ЯДрышко (/core)
 ├── templates/Комплекты мебели_21.05.2026.xlsx
-├── docs/
+├── docs/agents.md
+├── research/semantic-core-runs/  ← отчёты Core
 ├── scripts/fill_ozon_template.py
 └── cards/{АРТИКУЛ}/
     ├── {АРТИКУЛ}.md
