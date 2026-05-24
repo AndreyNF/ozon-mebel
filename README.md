@@ -26,7 +26,11 @@
 ```
 ozon-mebel/
 ├── templates/Комплекты мебели_21.05.2026.xlsx
-├── docs/
+├── docs/ozon-api-setup.md
+├── config/ozon-api-komplekty-mebeli.json
+├── series/series.example.json
+├── scripts/upload_to_ozon.py
+├── scripts/upload_series_to_ozon.py
 ├── scripts/fill_ozon_template.py
 └── cards/{АРТИКУЛ}/
     ├── {АРТИКУЛ}.md
