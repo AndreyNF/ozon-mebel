@@ -4,10 +4,12 @@
       {
         "offer_id": "Ц0011713",
         "product_id": 4719196784,
-        "status": "skipped",
+        "status": "imported",
         "errors": []
       }
     ],
     "total": 1
-  }
+  },
+  "task_id": 4586484996,
+  "submitted_at": "2026-05-27T11:58:37.593246+00:00"
 }

@@ -73,7 +73,7 @@
       "stocks": []
     },
     "errors": [],
-    "updated_at": "2026-05-23T18:17:19.216340Z",
+    "updated_at": "2026-05-27T11:58:43.342338Z",
     "vat": "0.00",
     "visibility_details": {
       "has_price": true,
@@ -112,7 +112,7 @@
       "status_description": "Обновляется",
       "is_created": true,
       "status_tooltip": "",
-      "status_updated_at": "2026-05-23T18:17:23.765189Z"
+      "status_updated_at": "2026-05-27T11:58:49.896709Z"
     },
     "is_super": false,
     "is_seasonal": false,
