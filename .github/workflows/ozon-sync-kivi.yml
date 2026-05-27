@@ -1,0 +1,58 @@
+name: Ozon sync Kivi cards
+
+on:
+  workflow_dispatch:
+    inputs:
+      articles:
+        description: "Артикулы через запятую (по умолчанию Киви)"
+        required: false
+        default: "Ц0011713,Ц0023320"
+      stock:
+        description: "Остаток FBS"
+        required: false
+        default: "1"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Import and update Ozon
+        env:
+          OZON_CLIENT_ID: ${{ secrets.OZON_CLIENT_ID || secrets.Api_client_id }}
+          OZON_API_KEY: ${{ secrets.OZON_API_KEY || secrets.Api_secret_key }}
+          Api_client_id: ${{ secrets.Api_client_id }}
+          Api_secret_key: ${{ secrets.Api_secret_key }}
+        run: |
+          set -e
+          IFS=',' read -ra ARTS <<< "${{ github.event.inputs.articles }}"
+          for ART in "${ARTS[@]}"; do
+            ART=$(echo "$ART" | xargs)
+            echo "=== $ART ==="
+            python scripts/build_rich_content.py "$ART"
+            python scripts/apply_hosting_urls.py "$ART"
+            python scripts/ozon_sync_import_payload.py "$ART"
+            python scripts/validate_ozon_card.py "$ART"
+            python scripts/ozon_api_import.py "$ART" --sync-payload
+            python scripts/ozon_api_product_status.py "$ART"
+            python scripts/ozon_api_stocks.py "$ART" --stock "${{ github.event.inputs.stock }}"
+          done
+
+      - name: Commit status snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cards/*/ozon-import-result_*.json cards/*/ozon-live-status_*.json || true
+          if git diff --staged --quiet; then
+            echo "No status changes to commit"
+          else
+            git commit -m "ci: Ozon sync status for Kivi cards"
+            git push
+          fi
