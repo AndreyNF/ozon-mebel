@@ -29,11 +29,23 @@ def load_dotenv(path: Path | None = None) -> None:
 
 def credentials() -> tuple[str, str]:
     load_dotenv()
-    client_id = os.environ.get("OZON_CLIENT_ID", "").strip()
-    api_key = os.environ.get("OZON_API_KEY", "").strip()
+    client_id = (
+        os.environ.get("OZON_CLIENT_ID")
+        or os.environ.get("Api_client_id")
+        or os.environ.get("API_CLIENT_ID")
+        or ""
+    ).strip()
+    api_key = (
+        os.environ.get("OZON_API_KEY")
+        or os.environ.get("Api_secret_key")
+        or os.environ.get("API_SECRET_KEY")
+        or ""
+    ).strip()
     if not client_id or not api_key:
         raise SystemExit(
-            "Задайте OZON_CLIENT_ID и OZON_API_KEY в .env (см. .env.example)"
+            "Задайте ключи Ozon: OZON_CLIENT_ID + OZON_API_KEY "
+            "(или Api_client_id + Api_secret_key в Cloud Agents / .env). "
+            "Секреты должны быть привязаны к репозиторию AndreyNF/ozon-mebel."
         )
     return client_id, api_key
 

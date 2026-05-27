@@ -3,7 +3,11 @@
 ## Ключи
 
 1. [seller.ozon.ru](https://seller.ozon.ru) → Настройки → API-ключи (Seller API, товары + цены).
-2. В корне репозитория: `cp .env.example .env` и заполнить `OZON_CLIENT_ID`, `OZON_API_KEY`.
+2. Ключи — один из вариантов:
+   - **Cursor Cloud Agents** → Environment Variables для репозитория **`AndreyNF/ozon-mebel`**: `OZON_CLIENT_ID` + `OZON_API_KEY` **или** `Api_client_id` + `Api_secret_key`.
+   - Локально: `cp .env.example .env` и те же переменные.
+
+Секреты, привязанные только к другому репозиторию (например `myfirstproject`), в агенте **ozon-mebel** не подставляются.
 
 ## Карточка Киви (после push фото в GitHub)
 
