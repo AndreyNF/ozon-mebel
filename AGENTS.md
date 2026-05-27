@@ -14,6 +14,7 @@
 8. **Сборка:** `py scripts/fill_template.py {АРТ}` → Excel; `--api` — выгрузка в Ozon. `docs/fill-template.md`, `docs/ozon-upload-strategy.md`.
 9. **Контент-рейтинг ~100** — `.cursor/rules/ozon-content-rating.mdc`: главное фото i2i от дилера, характеристики категории, **`py scripts/build_video_cover.py {АРТ}`** + `Озон.Видеообложка: ссылка` в row.json.
 10. **Артикул производителя** — первым из описания, **не менять**. EAN пустой, если генерирует Ozon.
+11. **Цена и доставка realFBS** — `.cursor/rules/ozon-delivery-subsidy-floors.mdc`, `docs/ozon-pricing-delivery.md`: при `Цена, руб.*` закладывать **пол Ozon «Ваши расходы»** от суммы заказа (мебель ~30–75 тыс. ₽ → минимум **2 200 ₽** с продавца; уменьшить в ЛК нельзя).
 
 ## Новая карточка от ссылки на товар
 
