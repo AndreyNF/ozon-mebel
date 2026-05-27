@@ -14,6 +14,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from ozon_client import post
+from telegram_notify import format_pipeline_notify, notify_safe
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -37,6 +38,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("articles", nargs="+", help="Артикулы")
     parser.add_argument("--stock", type=int, default=None)
+    parser.add_argument("--no-notify", action="store_true", help="Не слать Telegram")
     args = parser.parse_args()
 
     stock = args.stock
@@ -50,6 +52,11 @@ def main() -> None:
     resp = post("/v2/products/stocks", {"stocks": stocks})
     print(json.dumps(resp, ensure_ascii=False, indent=2))
     print(f"OK warehouse_id={wid} stock={stock} x {len(args.articles)}")
+
+    if not args.no_notify:
+        for art in args.articles:
+            if notify_safe(format_pipeline_notify(art, stock=stock)):
+                print(f"Telegram: sent ({art})")
 
 
 if __name__ == "__main__":

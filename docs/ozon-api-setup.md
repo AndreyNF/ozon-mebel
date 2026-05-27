@@ -25,3 +25,12 @@ py scripts/ozon_api_stocks.py Ц0011713 --stock 1
 Повторить для `Ц0023320`.
 
 При `imported` со статусом `skipped` скрипт импорта сам вызовет `/v1/product/pictures/import`.
+
+## Telegram (бот ozon-mebel)
+
+Секреты: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` (id **чата**, не бота).
+
+- `py scripts/telegram_notify.py --test`
+- После `ozon_api_import.py` — уведомление об импорте (или `--defer-notify`, если дальше `ozon_api_stocks`)
+- После `ozon_api_stocks.py` — сводка: импорт + validation из `ozon-live-status` + остаток FBS
+- `--no-notify` — отключить
