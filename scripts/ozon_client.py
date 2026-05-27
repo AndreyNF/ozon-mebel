@@ -31,12 +31,14 @@ def credentials() -> tuple[str, str]:
     load_dotenv()
     client_id = (
         os.environ.get("OZON_CLIENT_ID")
+        or os.environ.get("ozon_client_id")
         or os.environ.get("Api_client_id")
         or os.environ.get("API_CLIENT_ID")
         or ""
     ).strip()
     api_key = (
         os.environ.get("OZON_API_KEY")
+        or os.environ.get("ozon_api_key")
         or os.environ.get("Api_secret_key")
         or os.environ.get("API_SECRET_KEY")
         or ""

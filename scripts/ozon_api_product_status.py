@@ -23,14 +23,8 @@ def main() -> None:
     article = sys.argv[1]
     card = ROOT / "cards" / article
 
-    info = post(
-        "/v3/product/info/list",
-        {
-            "filter": {"offer_id": [article], "visibility": "ALL"},
-            "limit": 1,
-        },
-    )
-    items = (info.get("result") or {}).get("items") or []
+    info = post("/v3/product/info/list", {"offer_id": [article]})
+    items = info.get("items") or (info.get("result") or {}).get("items") or []
     if not items:
         raise SystemExit(f"Товар {article} не найден в Ozon")
 
