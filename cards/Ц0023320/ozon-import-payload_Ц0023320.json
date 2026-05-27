@@ -226,6 +226,63 @@
               "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60023320/video/video-cover.mp4"
             }
           ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10174,
+          "values": [
+            {
+              "value": "222"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10175,
+          "values": [
+            {
+              "value": "285"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10176,
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 13214,
+          "values": [
+            {
+              "value": "3 года",
+              "dictionary_value_id": 971006005
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 13215,
+          "values": [
+            {
+              "value": "14 лет",
+              "dictionary_value_id": 971005965
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23277,
+          "values": [
+            {
+              "value": "Кроватка и комод",
+              "dictionary_value_id": 972845705
+            }
+          ]
         }
       ],
       "complex_attributes": []
