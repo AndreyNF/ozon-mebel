@@ -1,0 +1,15 @@
+{
+  "result": {
+    "items": [
+      {
+        "offer_id": "Кухня Шампань 1000х1800",
+        "product_id": 4934437498,
+        "status": "imported",
+        "errors": []
+      }
+    ],
+    "total": 1
+  },
+  "task_id": 4699107268,
+  "submitted_at": "2026-06-05T11:54:31.010462+00:00"
+}
