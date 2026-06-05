@@ -45,7 +45,10 @@ def main() -> None:
     if not files:
         raise SystemExit(f"Нет файлов в {images_dir}")
 
+    cache_v = (meta.get("images_cache_version") or "").strip()
     urls = [public_url(base, f"cards/{article}/images/{name}") for name in files]
+    if cache_v:
+        urls = [f"{u}?v={cache_v}" for u in urls]
     row["Ссылка на главное фото*"] = urls[0]
     row["Ссылки на дополнительные фото"] = "\r\n".join(urls[1:]) if len(urls) > 1 else ""
     row["images"] = urls
