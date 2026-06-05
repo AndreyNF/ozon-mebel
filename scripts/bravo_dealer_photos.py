@@ -69,6 +69,10 @@ def main() -> None:
     manifest["image_files"] = sorted(mapping.keys())
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    import shutil
+
+    shutil.rmtree(tmp, ignore_errors=True)
+
 
 if __name__ == "__main__":
     main()
