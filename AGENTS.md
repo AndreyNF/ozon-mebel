@@ -43,3 +43,7 @@ cards/{АРТИКУЛ}/
 ```
 
 Переопределение: `$env:OZON_TEMPLATE = "полный путь.xlsx"`.
+
+## Автоответы покупателям (Ozon)
+
+`python3 scripts/ozon_comms_poll.py --all` — вопросы, отзывы, чат. FAQ из `cards/{АРТ}/`. Подробно: `docs/ozon-buyer-comms.md`. Cron: `.github/workflows/ozon-comms-poll.yml`.
