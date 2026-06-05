@@ -10,15 +10,15 @@
     "type_id": 95108,
     "created_at": "2026-05-21T16:49:21.198662Z",
     "images": [
-      "https://cdn1.ozone.ru/s3/multimedia-1-i/10675111914.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-7/10675112011.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-u/10675111386.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-r/10675111095.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-6/10675111614.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-x/6824653305.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-0/10675111464.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-i/10675111986.jpg",
-      "https://cdn1.ozone.ru/s3/multimedia-1-o/10675111344.jpg"
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/02-infographic.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/03-lifestyle-woman.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-couple.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-layout.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/10-angle-ai.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/04-lifestyle-interior-ref.jpg",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-dimensions-ref.jpg",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/05-interior-cutaway-ref.jpg",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/06-angle-ref.jpg"
     ],
     "currency_code": "RUB",
     "min_price": "",
@@ -72,171 +72,8 @@
       "has_stock": false,
       "stocks": []
     },
-    "errors": [
-      {
-        "code": "value_found_by_synonym",
-        "field": "",
-        "attribute_id": 6712,
-        "state": "new",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Особенности",
-          "description": "Заменили некорректное значение \"полки\" на значение \"С полками\" из нашего справочника.",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "6712"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Особенности"
-            },
-            {
-              "name": "new",
-              "value": "С полками"
-            },
-            {
-              "name": "old",
-              "value": "полки"
-            }
-          ],
-          "message": "{\"new\":\"С полками\",\"old\":\"полки\"}"
-        }
-      },
-      {
-        "code": "value_found_by_synonym",
-        "field": "",
-        "attribute_id": 22232,
-        "state": "new",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "ТН ВЭД коды ЕАЭС",
-          "description": "Заменили некорректное значение \"9403601009\" на значение \"9403601009 - Прочая мебель деревянная для столовых и жилых комнат\" из нашего справочника.",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "22232"
-            },
-            {
-              "name": "attribute_name",
-              "value": "ТН ВЭД коды ЕАЭС"
-            },
-            {
-              "name": "new",
-              "value": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат"
-            },
-            {
-              "name": "old",
-              "value": "9403601009"
-            }
-          ],
-          "message": "{\"new\":\"9403601009 - Прочая мебель деревянная для столовых и жилых комнат\",\"old\":\"9403601009\"}"
-        }
-      },
-      {
-        "code": "warning_attribute_values_out_of_range",
-        "field": "",
-        "attribute_id": 10400,
-        "state": "new",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Гарантия",
-          "description": "Неверное значение атрибута. Для некоторых атрибутов все возможные значения собраны в виде списка — указывайте только их, прописывать значения вручную не нужно. Выберите значения атрибута из списка или загрузите новый XLS-шаблон со значением из списка.",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "10400"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Гарантия"
-            }
-          ],
-          "message": "Attribute value not fresh"
-        }
-      },
-      {
-        "code": "warning_attribute_values_out_of_range",
-        "field": "",
-        "attribute_id": 6712,
-        "state": "new",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Особенности",
-          "description": "Неверное значение атрибута. Для некоторых атрибутов все возможные значения собраны в виде списка — указывайте только их, прописывать значения вручную не нужно. Выберите значения атрибута из списка или загрузите новый XLS-шаблон со значением из списка.",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "6712"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Особенности"
-            }
-          ],
-          "message": "Attribute value not fresh"
-        }
-      },
-      {
-        "code": "erased_attribute_value",
-        "field": "",
-        "attribute_id": 11254,
-        "state": "offer_validated",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Rich-контент JSON",
-          "description": "Исправили значение атрибута, потому что: \"Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox.\".",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "11254"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Rich-контент JSON"
-            },
-            {
-              "name": "code_description",
-              "value": "Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox."
-            }
-          ],
-          "message": "{\"code_description\":\"Rich-контент JSON не соответствует шаблону. Проверьте код в песочнице https://rich-content.ozon.ru/sandbox.\"}"
-        }
-      },
-      {
-        "code": "erased_attribute_value",
-        "field": "",
-        "attribute_id": 4384,
-        "state": "offer_validated",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Комплектация",
-          "description": "Исправили значение атрибута, потому что: \"В поле можно выбрать только одно значение. Удалите лишние значения\".",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "4384"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Комплектация"
-            },
-            {
-              "name": "code_description",
-              "value": "В поле можно выбрать только одно значение. Удалите лишние значения"
-            }
-          ],
-          "message": "{\"code_description\":\"В поле можно выбрать только одно значение. Удалите лишние значения\"}"
-        }
-      }
-    ],
-    "updated_at": "2026-05-23T15:26:19.391180Z",
+    "errors": [],
+    "updated_at": "2026-05-27T11:58:40.972469Z",
     "vat": "0.00",
     "visibility_details": {
       "has_price": true,
@@ -250,7 +87,7 @@
         "price_index_value": 0
       },
       "ozon_index_data": {
-        "minimal_price": "8409.00",
+        "minimal_price": "8410.00",
         "minimal_price_currency": "RUB",
         "price_index_value": 1.35
       },
@@ -264,18 +101,18 @@
     "is_kgt": true,
     "color_image": [],
     "primary_image": [
-      "https://cdn1.ozone.ru/s3/multimedia-1-z/10675111319.jpg"
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60081444/images/01-main.png"
     ],
     "statuses": {
-      "status": "price_sent",
+      "status": "offer_validated",
       "status_failed": "",
-      "moderate_status": "approved",
+      "moderate_status": "",
       "validation_status": "success",
-      "status_name": "Готов к продаже",
-      "status_description": "Нет на складе",
+      "status_name": "Не продается",
+      "status_description": "Обновляется",
       "is_created": true,
-      "status_tooltip": "Товар можно привезти на склад Ozon или указать его количество на своем складе",
-      "status_updated_at": "2026-05-23T15:26:29.241211Z"
+      "status_tooltip": "",
+      "status_updated_at": "2026-05-27T11:58:44.898768Z"
     },
     "is_super": false,
     "is_seasonal": false,

@@ -10,15 +10,15 @@
     "type_id": 94995,
     "created_at": "2026-05-23T16:03:03.836884Z",
     "images": [
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/02-infographic.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/03-lifestyle.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/04-details.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/05-angle.png?v=20260523b",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/06-layout.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/07-utp.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/08-interior.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/09-dimensions.png",
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/10-series.png"
+      "https://ir.ozone.ru/s3/multimedia-1-7/10737669427.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-s/10737668332.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-d/10737668461.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-8/10737148148.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-q/10737668438.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-t/10737669413.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-z/10736932823.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-q/10736932742.jpg",
+      "https://ir.ozone.ru/s3/multimedia-1-k/10736932808.jpg"
     ],
     "currency_code": "RUB",
     "min_price": "",
@@ -64,7 +64,7 @@
       }
     ],
     "is_prepayment_allowed": true,
-    "volume_weight": 362.1,
+    "volume_weight": 357.9,
     "has_discounted_fbo_item": false,
     "is_discounted": false,
     "discounted_fbo_stocks": 0,
@@ -73,7 +73,7 @@
       "stocks": []
     },
     "errors": [],
-    "updated_at": "2026-05-23T16:47:31.906648Z",
+    "updated_at": "2026-05-27T11:58:05.261665Z",
     "vat": "0.00",
     "visibility_details": {
       "has_price": true,
@@ -101,18 +101,18 @@
     "is_kgt": true,
     "color_image": [],
     "primary_image": [
-      "https://raw.githubusercontent.com/AndreyNF/ozon-mebel/main/cards/%D0%A60050573/images/01-main.png?v=20260523b"
+      "https://ir.ozone.ru/s3/multimedia-1-8/10737147680.jpg"
     ],
     "statuses": {
-      "status": "offer_validated",
+      "status": "price_sent",
       "status_failed": "",
-      "moderate_status": "",
+      "moderate_status": "approved",
       "validation_status": "success",
-      "status_name": "Не продается",
-      "status_description": "Обновляется",
+      "status_name": "Готов к продаже",
+      "status_description": "Нет на складе",
       "is_created": true,
-      "status_tooltip": "",
-      "status_updated_at": "2026-05-23T16:47:35.185802Z"
+      "status_tooltip": "Товар можно привезти на склад Ozon или указать его количество на своем складе",
+      "status_updated_at": "2026-05-27T11:59:11.849489Z"
     },
     "is_super": false,
     "is_seasonal": false,

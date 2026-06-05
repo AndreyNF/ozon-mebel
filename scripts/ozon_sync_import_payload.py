@@ -15,6 +15,12 @@ ROW_TO_ATTR_ID = {
     "#Хештеги": 23171,
     "Rich-контент JSON": 11254,
     "Озон.Видеообложка: ссылка": 21845,
+    "Высота, см": 10174,
+    "Ширина, см": 10175,
+    "Глубина, см": 10176,
+    "Минимальный возраст ребенка": 13214,
+    "Максимальный возраст ребенка": 13215,
+    "Состав комплекта": 23277,
 }
 
 
@@ -33,12 +39,21 @@ def split_photos(row: dict) -> tuple[str, list[str]]:
     return main, extra
 
 
-def set_attr(attrs: list[dict], attr_id: int, value: str) -> None:
+def set_attr(
+    attrs: list[dict],
+    attr_id: int,
+    value: str,
+    *,
+    dictionary_value_id: int | None = None,
+) -> None:
+    entry: dict = {"value": value}
+    if dictionary_value_id:
+        entry["dictionary_value_id"] = int(dictionary_value_id)
     for a in attrs:
         if int(a.get("id", 0)) == attr_id:
-            a["values"] = [{"value": value}]
+            a["values"] = [entry]
             return
-    attrs.append({"complex_id": 0, "id": attr_id, "values": [{"value": value}]})
+    attrs.append({"complex_id": 0, "id": attr_id, "values": [entry]})
 
 
 def sync_payload(row: dict, payload: dict) -> dict:
@@ -72,10 +87,16 @@ def sync_payload(row: dict, payload: dict) -> dict:
     item["images"] = extra[:14]
 
     attrs = item.setdefault("attributes", [])
+    dict_ids = (row.get("_meta") or {}).get("ozon_dictionary") or {}
     for field, attr_id in ROW_TO_ATTR_ID.items():
         val = row.get(field)
         if val:
-            set_attr(attrs, attr_id, str(val).strip())
+            set_attr(
+                attrs,
+                attr_id,
+                str(val).strip(),
+                dictionary_value_id=dict_ids.get(field),
+            )
 
     return payload
 

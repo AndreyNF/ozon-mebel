@@ -22,13 +22,16 @@ def warehouse_id() -> int:
     wh = os.environ.get("OZON_WAREHOUSE_ID", "").strip()
     if wh:
         return int(wh)
-    resp = post("/v1/warehouse/list", {})
-    whs = resp.get("result") or []
+    resp = post("/v2/warehouse/list", {"limit": 100})
+    whs = resp.get("warehouses") or resp.get("result") or []
     fbs = [w for w in whs if "fbs" in str(w.get("name", "")).lower() or w.get("is_rfbs")]
     if not fbs and whs:
         fbs = whs
     if not fbs:
-        raise SystemExit("Склады не найдены — задайте OZON_WAREHOUSE_ID в .env")
+        raise SystemExit(
+            "Склады FBS не найдены (POST /v2/warehouse/list пуст). "
+            "Создайте склад в ЛК Ozon или задайте OZON_WAREHOUSE_ID в .env"
+        )
     wid = fbs[0].get("warehouse_id") or fbs[0].get("id")
     return int(wid)
 
