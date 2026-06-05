@@ -8,9 +8,37 @@ import json
 import urllib.request
 from pathlib import Path
 
+import colorsys
+
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def _color_stats(path: Path) -> dict[str, float]:
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+    crop = im.crop((int(w * 0.15), int(h * 0.15), int(w * 0.85), int(h * 0.85)))
+    pixels = list(crop.resize((80, 80)).getdata())
+    blues = greens = 0
+    for r, g, b in pixels:
+        hue, sat, _ = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+        hue *= 360
+        if 90 < hue < 170 and sat > 0.12:
+            greens += 1
+        elif 180 < hue < 260 and sat > 0.12:
+            blues += 1
+    n = len(pixels) or 1
+    return {"blue_pct": blues / n * 100, "green_pct": greens / n * 100}
+
+
+def assert_sapphire_color(path: Path, slot: str) -> None:
+    """Отсечь зелёный самшит / чужие расцветки с галереи tdbravomebel."""
+    s = _color_stats(path)
+    if s["green_pct"] > 8 and s["green_pct"] > s["blue_pct"]:
+        raise SystemExit(f"COLOR FAIL {slot}: похоже на зелёный ({s}), не Сапфировый")
+    if s["blue_pct"] < 3 and "main" in slot or slot.startswith("01"):
+        raise SystemExit(f"COLOR FAIL {slot}: мало синего ({s}), проверьте референс")
 UA = "Mozilla/5.0 (compatible; ozon-mebel/1.0)"
 
 
@@ -56,8 +84,9 @@ def main() -> None:
         download(url, raw)
         dest = out_dir / slot
         fit_3x4(raw, dest)
+        assert_sapphire_color(dest, slot)
         manifest_refs[slot] = url
-        print(f"OK {slot} <- {url}")
+        print(f"OK {slot} <- {url} color={_color_stats(dest)}")
 
     manifest_path = card / "images-manifest.json"
     manifest = {}
