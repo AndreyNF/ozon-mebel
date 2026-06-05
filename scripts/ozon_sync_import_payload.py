@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Обновить ozon-import-payload из row.json (фото, Rich, видео, цены)."""
+"""Обновить ozon-import-payload из row.json (фото, Rich, видео, цены, характеристики)."""
 
 from __future__ import annotations
 
@@ -15,6 +15,20 @@ ROW_TO_ATTR_ID = {
     "#Хештеги": 23171,
     "Rich-контент JSON": 11254,
     "Озон.Видеообложка: ссылка": 21845,
+    "Комната": 6673,
+    "Материал фасада": 6704,
+    "Материал корпуса": 6656,
+    "Покрытие фасада": 6707,
+    "Высота, см": 10174,
+    "Ширина, см": 10175,
+    "Глубина, см": 10176,
+    "Гарантийный срок": 4385,
+    "Гарантия": 10400,
+    "Стиль дизайна": 9546,
+    "Форма поставки": 10596,
+    "Страна-изготовитель": 4389,
+    "Комплектация": 4384,
+    "Вес товара, г": 4383,
 }
 
 
@@ -39,6 +53,18 @@ def set_attr(attrs: list[dict], attr_id: int, value: str) -> None:
             a["values"] = [{"value": value}]
             return
     attrs.append({"complex_id": 0, "id": attr_id, "values": [{"value": value}]})
+
+
+def set_attr_multi(attrs: list[dict], attr_id: int, values: list[str]) -> None:
+    clean = [str(v).strip() for v in values if str(v).strip()]
+    if not clean:
+        return
+    payload_values = [{"value": v} for v in clean]
+    for a in attrs:
+        if int(a.get("id", 0)) == attr_id:
+            a["values"] = payload_values
+            return
+    attrs.append({"complex_id": 0, "id": attr_id, "values": payload_values})
 
 
 def sync_payload(row: dict, payload: dict) -> dict:
@@ -74,8 +100,15 @@ def sync_payload(row: dict, payload: dict) -> dict:
     attrs = item.setdefault("attributes", [])
     for field, attr_id in ROW_TO_ATTR_ID.items():
         val = row.get(field)
-        if val:
+        if val not in ("", None):
             set_attr(attrs, attr_id, str(val).strip())
+
+    set_parts = meta.get("ozon_set_parts") or []
+    if set_parts:
+        set_attr_multi(attrs, 10606, list(set_parts))
+    elif row.get("Состав комплекта"):
+        parts = [p.strip() for p in str(row["Состав комплекта"]).split(";") if p.strip()]
+        set_attr_multi(attrs, 10606, parts)
 
     return payload
 

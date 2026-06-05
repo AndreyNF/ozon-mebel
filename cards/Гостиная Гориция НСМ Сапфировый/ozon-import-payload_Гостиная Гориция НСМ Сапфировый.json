@@ -142,7 +142,7 @@
           "id": 10400,
           "values": [
             {
-              "value": "24 месяца"
+              "value": "2 года"
             }
           ]
         },
@@ -224,6 +224,99 @@
           "values": [
             {
               "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/video/video-cover.mp4"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6673,
+          "values": [
+            {
+              "value": "Гостиная"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6704,
+          "values": [
+            {
+              "value": "МДФ"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6656,
+          "values": [
+            {
+              "value": "ЛДСП"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 6707,
+          "values": [
+            {
+              "value": "Эмалевое"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10174,
+          "values": [
+            {
+              "value": "218"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10175,
+          "values": [
+            {
+              "value": "401"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10176,
+          "values": [
+            {
+              "value": "52"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10606,
+          "values": [
+            {
+              "value": "Тумба под ТВ"
+            },
+            {
+              "value": "Комод"
+            },
+            {
+              "value": "Комод"
+            },
+            {
+              "value": "Комод"
+            },
+            {
+              "value": "Шкаф-витрина"
+            },
+            {
+              "value": "Шкаф-витрина"
+            },
+            {
+              "value": "Шкаф для одежды"
+            },
+            {
+              "value": "Зеркало"
             }
           ]
         }

@@ -24,13 +24,46 @@
     "min_price": "",
     "old_price": "149990.00",
     "price": "129990.00",
-    "sources": [],
+    "sources": [
+      {
+        "sku": 4600773264,
+        "source": "sds",
+        "created_at": "2026-06-05T13:36:46.945378Z",
+        "shipment_type": "SHIPMENT_TYPE_GENERAL",
+        "quant_code": ""
+      }
+    ],
     "model_info": {
-      "model_id": 0,
-      "count": 0
+      "model_id": 1733199973,
+      "count": 1
     },
-    "commissions": [],
-    "is_prepayment_allowed": false,
+    "commissions": [
+      {
+        "delivery_amount": 25,
+        "percent": 43,
+        "return_amount": 4522,
+        "sale_schema": "FBO",
+        "value": 55895.7
+      },
+      {
+        "delivery_amount": 25,
+        "percent": 47,
+        "return_amount": 15750,
+        "sale_schema": "FBS",
+        "value": 61095.3
+      },
+      {
+        "percent": 47,
+        "sale_schema": "RFBS",
+        "value": 61095.3
+      },
+      {
+        "percent": 44,
+        "sale_schema": "FBP",
+        "value": 57195.6
+      }
+    ],
+    "is_prepayment_allowed": true,
     "volume_weight": 457.6,
     "has_discounted_fbo_item": false,
     "is_discounted": false,
@@ -39,40 +72,8 @@
       "has_stock": false,
       "stocks": []
     },
-    "errors": [
-      {
-        "code": "value_found_by_synonym",
-        "field": "",
-        "attribute_id": 10400,
-        "state": "new",
-        "level": "ERROR_LEVEL_WARNING",
-        "texts": {
-          "attribute_name": "Гарантия",
-          "description": "Заменили некорректное значение \"24 месяца\" на значение \"2 года\" из нашего справочника.",
-          "short_description": "",
-          "params": [
-            {
-              "name": "attribute_id",
-              "value": "10400"
-            },
-            {
-              "name": "attribute_name",
-              "value": "Гарантия"
-            },
-            {
-              "name": "new",
-              "value": "2 года"
-            },
-            {
-              "name": "old",
-              "value": "24 месяца"
-            }
-          ],
-          "message": "{\"new\":\"2 года\",\"old\":\"24 месяца\"}"
-        }
-      }
-    ],
-    "updated_at": "2026-06-05T13:35:24.401227Z",
+    "errors": [],
+    "updated_at": "2026-06-05T13:52:51.361865Z",
     "vat": "0.00",
     "visibility_details": {
       "has_price": true,
@@ -82,17 +83,17 @@
       "color_index": "COLOR_INDEX_WITHOUT_INDEX",
       "external_index_data": {
         "minimal_price": "",
-        "minimal_price_currency": "",
+        "minimal_price_currency": "RUB",
         "price_index_value": 0
       },
       "ozon_index_data": {
         "minimal_price": "",
-        "minimal_price_currency": "",
+        "minimal_price_currency": "RUB",
         "price_index_value": 0
       },
       "self_marketplaces_index_data": {
         "minimal_price": "",
-        "minimal_price_currency": "",
+        "minimal_price_currency": "RUB",
         "price_index_value": 0
       }
     },
@@ -108,21 +109,28 @@
       "moderate_status": "",
       "validation_status": "success",
       "status_name": "Не продается",
-      "status_description": "Создается",
-      "is_created": false,
+      "status_description": "Обновляется",
+      "is_created": true,
       "status_tooltip": "",
-      "status_updated_at": "2026-06-05T13:35:28.902126Z"
+      "status_updated_at": "2026-06-05T13:52:54.207373Z"
     },
     "is_super": false,
     "is_seasonal": false,
     "promotions": [
       {
-        "is_enabled": false,
+        "is_enabled": true,
         "type": "REVIEWS_PROMO"
       }
     ],
-    "sku": 0,
-    "availabilities": []
+    "sku": 4600773264,
+    "availabilities": [
+      {
+        "availability": "AVAILABLE",
+        "reasons": [],
+        "sku": 4600773264,
+        "source": "sds"
+      }
+    ]
   },
   "description": {
     "result": {
