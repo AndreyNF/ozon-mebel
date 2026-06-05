@@ -33,12 +33,14 @@ def credentials() -> tuple[str, str]:
         os.environ.get("OZON_CLIENT_ID")
         or os.environ.get("Api_client_id")
         or os.environ.get("API_CLIENT_ID")
+        or os.environ.get("ozon_client_id")
         or ""
     ).strip()
     api_key = (
         os.environ.get("OZON_API_KEY")
         or os.environ.get("Api_secret_key")
         or os.environ.get("API_SECRET_KEY")
+        or os.environ.get("ozon_api_key")
         or ""
     ).strip()
     if not client_id or not api_key:
