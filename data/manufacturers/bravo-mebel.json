@@ -1,0 +1,54 @@
+{
+  "id": "bravo-mebel",
+  "name": "Браво Мебель",
+  "brand_ozon": "Браво",
+  "country": "Россия",
+  "sites": [
+    "https://tdbravomebel.ru",
+    "https://www.tdbravomebel.ru"
+  ],
+  "dealer_aliases": ["tdbravomebel", "bravomebel", "браво мебель"],
+  "default_pipeline": {
+    "one_card_per": "collection_url",
+    "skip_modules_in_bundle": true,
+    "main_photo": "i2i_from_dealer",
+    "confirm_before_import": false,
+    "full_cycle_to_api": true
+  },
+  "card_naming": {
+    "article_source": "collection_title_on_site",
+    "model_series_field": "Название модели (для объединения в одну карточку)*",
+    "merge_similar": "коллекция без цвета, напр. «Гориция НСМ»"
+  },
+  "published": [
+    {
+      "article": "Гостиная Гориция НСМ Сапфировый",
+      "source_url": "https://tdbravomebel.ru/collections/gostinaya_goritsiya_sapfirovyy_new/",
+      "source_url_normalized": "/collections/gostinaya_goritsiya_sapfirovyy_new/",
+      "type": "collection",
+      "items_count": 8,
+      "ozon_product_id": 4935700872,
+      "ozon_offer_id": "Гостиная Гориция НСМ Сапфировый",
+      "ozon_category": "Стенка для гостиной",
+      "cards_folder": "cards/Гостиная Гориция НСМ Сапфировый",
+      "imported_at": "2026-06-05",
+      "notes": "FBS остатки вручную; в ЛК возможен баннер OBX по габаритам/весу до замеров склада"
+    }
+  ],
+  "queue_suggested": [
+    {
+      "title": "Спальня «Гориция НСМ» Сапфировый",
+      "source_url": "https://tdbravomebel.ru/collections/kollektsiya_Spal%27nya_Goriciya_new/",
+      "items_count": 13,
+      "article_expected": "Спальня Гориция НСМ Сапфировый"
+    },
+    {
+      "title": "Гостиная «Гориция НСМ» Льняной",
+      "source_url_pattern": "/collections/*gostinaya*lnyan*"
+    },
+    {
+      "title": "Гостиная «Гориция НСМ» Зелёный самшит",
+      "source_url": "https://tdbravomebel.ru/collections/gostinaya_goritsiya_zelyenyy-samshit/"
+    }
+  ]
+}

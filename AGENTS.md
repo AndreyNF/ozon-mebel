@@ -20,6 +20,15 @@
 Полный цикл без паузы: данные → **10 фото gpt-image-2** → push GitHub → Rich → API.  
 Правило: `.cursor/rules/ozon-new-card-pipeline.mdc`.
 
+## Производитель Браво (tdbravomebel.ru)
+
+Ссылка на **tdbravomebel.ru** → автопайплайн без уточнений. Сначала проверка дублей:
+
+`py scripts/bravo_card_registry.py check URL`
+
+Реестр опубликованных: `data/manufacturers/bravo-mebel.json`. Правило: `.cursor/rules/ozon-bravo-mebel.mdc`.  
+**1 URL коллекции = 1 карточка Ozon.** После import — дописать в реестр.
+
 ## Файлы карточки
 
 ```
