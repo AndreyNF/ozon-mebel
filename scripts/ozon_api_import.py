@@ -32,12 +32,19 @@ def load_product_id(card: Path, article: str) -> int | None:
     return int(pid) if pid else None
 
 
+def pictures_urls(item: dict) -> list[str]:
+    """Все фото для /v1/product/pictures/import: первое — главное."""
+    primary = (item.get("primary_image") or "").strip()
+    extra = [str(u).strip() for u in (item.get("images") or []) if str(u).strip()]
+    if primary:
+        urls = [primary] + [u for u in extra if u != primary]
+    else:
+        urls = extra
+    return urls
+
+
 def import_pictures(product_id: int, item: dict) -> dict:
-    body = {
-        "product_id": product_id,
-        "images": list(item.get("images") or []),
-        "primary_image": item.get("primary_image") or "",
-    }
+    body = {"product_id": product_id, "images": pictures_urls(item)}
     return post("/v1/product/pictures/import", body)
 
 
