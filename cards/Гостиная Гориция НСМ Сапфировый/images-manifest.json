@@ -12,6 +12,19 @@
     "09-dimensions.png",
     "10-series.png"
   ],
-  "dealer_ref": "https://tdbravomebel.ru/upload/iblock/0ae/0ae939ff0ddbb9e44003267f79a7a116.jpg",
-  "source": "https://tdbravomebel.ru/collections/gostinaya_goritsiya_sapfirovyy_new/"
+  "dealer_ref": "https://tdbravomebel.ru/upload/iblock/f01/f014863f700a87d9f3aa4bcfa00dff07.jpg",
+  "source": "https://tdbravomebel.ru/collections/gostinaya_goritsiya_sapfirovyy_new/",
+  "dealer_slots": {
+    "01-main.png": "https://tdbravomebel.ru/upload/iblock/f01/f014863f700a87d9f3aa4bcfa00dff07.jpg",
+    "02-infographic.png": "https://tdbravomebel.ru/upload/iblock/87c/87cb27e24d7ec847312638b6593814c5.jpg",
+    "03-lifestyle.png": "https://tdbravomebel.ru/upload/iblock/f01/f014863f700a87d9f3aa4bcfa00dff07.jpg",
+    "04-details.png": "https://tdbravomebel.ru/upload/iblock/388/388aa9dae62c044c97c6c70e5925e10c.jpg",
+    "05-angle.png": "https://tdbravomebel.ru/upload/iblock/823/82355357f3aedc6568280edd82123770.jpg",
+    "06-layout.png": "https://tdbravomebel.ru/upload/iblock/1d8/1d8ac136a305052cfef3aa354a4e3fbb.jpg",
+    "07-utp.png": "https://tdbravomebel.ru/upload/iblock/86e/86ed1ab92c7a3b65c2844b3423095012.jpg",
+    "08-interior.png": "https://tdbravomebel.ru/upload/iblock/31c/31c2cee42e906f305a4deb0a7934029c.jpg",
+    "09-dimensions.png": "https://tdbravomebel.ru/upload/iblock/d54/d54bbfce5960976e0000ec42866d468d.jpg",
+    "10-series.png": "https://tdbravomebel.ru/upload/iblock/556/556977423a26b51a688ecf56e7ed5abf.jpg"
+  },
+  "photo_policy": "dealer_only_no_ai_color"
 }

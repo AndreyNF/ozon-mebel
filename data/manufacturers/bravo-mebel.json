@@ -11,7 +11,9 @@
   "default_pipeline": {
     "one_card_per": "collection_url",
     "skip_modules_in_bundle": true,
-    "main_photo": "i2i_from_dealer",
+    "main_photo": "dealer_download_first",
+    "ai_photos": "forbidden_unless_no_dealer_shot",
+    "color_policy": "exact_dealer_match_no_enhancement",
     "confirm_before_import": false,
     "full_cycle_to_api": true
   },
