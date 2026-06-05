@@ -1,0 +1,234 @@
+{
+  "items": [
+    {
+      "offer_id": "Гостиная Гориция НСМ Сапфировый",
+      "name": "Стенка для гостиной Браво Гориция НСМ Сапфировый, 8 модулей, МДФ/ЛДСП",
+      "description_category_id": 80770870,
+      "type_id": 95092,
+      "new_description_category_id": 0,
+      "price": "129990",
+      "old_price": "149990",
+      "currency_code": "RUB",
+      "vat": "0",
+      "weight": 185000,
+      "weight_unit": "g",
+      "width": 200,
+      "height": 220,
+      "depth": 52,
+      "dimension_unit": "cm",
+      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/01-main.png",
+      "images": [
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/02-infographic.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/03-lifestyle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/04-details.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/05-angle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/06-layout.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/07-utp.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/08-interior.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/09-dimensions.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/10-series.png"
+      ],
+      "attributes": [
+        {
+          "complex_id": 0,
+          "id": 85,
+          "values": [
+            {
+              "value": "Браво"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9048,
+          "values": [
+            {
+              "value": "Гориция НСМ"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10097,
+          "values": [
+            {
+              "value": "Сапфировый/Таксус"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10096,
+          "values": [
+            {
+              "value": "синий"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 8229,
+          "values": [
+            {
+              "value": "Стенка для гостиной"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22232,
+          "values": [
+            {
+              "value": "9403601009 - Прочая мебель деревянная для столовых и жилых комнат"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23249,
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 23171,
+          "values": [
+            {
+              "value": "#стенкадлягостиной #мебельдлягостиной #гостинаягориция #бравомебель #модульнаягостиная #стенкагостиная #мебельгориция #сапфировый #комплектмебели #гостиныйгарнитур #мебельлдсп #мдффасады #витринадлягостиной #тумбатв #комодвгостиную #мебельроссия #модульнаястенка #горициянсм #стенкакомплект #гостинаямебель #мебельбраво #интерьергостиной #гарнитургостиная #стенкасапфир #мебелькомплект"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4191,
+          "values": [
+            {
+              "value": "Модульная стенка для гостиной Браво Гориция НСМ в цвете Сапфировый. Комплект из 8 модулей: тумба ТВ, комоды, витрины ШР-1 и ШР-2, шкаф распашной, зеркало навесное. Корпус ЛДСП Таксус, фасады МДФ с полиуретановой эмалью, фрезеровка, направляющие с доводчиками, опоры из массива. Разборная поставка, 8 упаковок. Производитель Браво Мебель, Россия. Гарантия 24 месяца."
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11254,
+          "values": [
+            {
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Гостиная Браво Гориция НСМ Сапфировый\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Модульная стенка для гостиной: 8 элементов в цвете сапфировый лак на МДФ и корпус Таксус. Тумба ТВ, комоды, витрины, шкаф и зеркало. Разборная поставка.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/02-infographic.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/02-infographic.png\",\"alt\":\"Гориция НСМ — состав комплекта\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Состав комплекта — 8 модулей\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Тумба ТВ 1511 мм.\",\"Комод 2 двери 6 ящиков.\",\"Витрины ШР-1 и ШР-2.\",\"Шкаф распашной ШР-2.\",\"Зеркало навесное.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/03-lifestyle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/03-lifestyle.png\",\"alt\":\"Гостиная Гориция lifestyle\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Готовая гостиная\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Единый стиль коллекции Гориция — не нужно подбирать модули по отдельности.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/06-layout.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/06-layout.png\",\"alt\":\"Модули Гориция НСМ\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"8 модулей в комплекте\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Тумба под ТВ, комоды с ящиками, витрины со стеклом, шкаф и зеркало.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/04-details.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/04-details.png\",\"alt\":\"Детали фасада Гориция\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Фасады и фурнитура\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"МДФ с полиуретановой эмалью, фрезеровка, направляющие с доводчиками, опоры массив.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/07-utp.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/07-utp.png\",\"alt\":\"Модульность Гориция\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Модульная система\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Соберите композицию под размер комнаты — модули серии совместимы по стилю.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/01-main.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/01-main.png\",\"alt\":\"Гориция НСМ — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/05-angle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/images/05-angle.png\",\"alt\":\"Гориция НСМ — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и доставка\",\"8 модулей, фурнитура, инструкции. Поставка в разобранном виде, 8 упаковок. Производитель Браво Мебель, Россия. Гарантия 24 месяца.\"]}}]}"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22390,
+          "values": [
+            {
+              "value": "Гориция"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4385,
+          "values": [
+            {
+              "value": "24 месяца"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10400,
+          "values": [
+            {
+              "value": "24 месяца"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 9546,
+          "values": [
+            {
+              "value": "Современный"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 10596,
+          "values": [
+            {
+              "value": "В разобранном виде"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 11650,
+          "values": [
+            {
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22073,
+          "values": [
+            {
+              "value": "Да"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 22270,
+          "values": [
+            {
+              "value": "Фабричное производство"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4389,
+          "values": [
+            {
+              "value": "Россия"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4384,
+          "values": [
+            {
+              "value": "Тумба ТВ, комод 2 двери 6 ящиков, витрина ШР-1, витрина ШР-2, комод 5 ящиков, шкаф распашной ШР-2, комод 6 ящиков, зеркало навесное, фурнитура, инструкции"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 4383,
+          "values": [
+            {
+              "value": "175000"
+            }
+          ]
+        },
+        {
+          "complex_id": 0,
+          "id": 21845,
+          "values": [
+            {
+              "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%20%D0%93%D0%BE%D1%80%D0%B8%D1%86%D0%B8%D1%8F%20%D0%9D%D0%A1%D0%9C%20%D0%A1%D0%B0%D0%BF%D1%84%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D0%B9/video/video-cover.mp4"
+            }
+          ]
+        }
+      ],
+      "complex_attributes": []
+    }
+  ]
+}
