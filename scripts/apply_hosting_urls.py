@@ -24,13 +24,14 @@ def main() -> None:
 
     article = sys.argv[1]
     cfg = json.loads((ROOT / "hosting.config.json").read_text(encoding="utf-8"))
-    base = (cfg.get("public_base_url") or "").strip()
-    if not base:
-        raise SystemExit("Укажите public_base_url в hosting.config.json")
-
     card = ROOT / "cards" / article
     row_path = card / f"{article}.row.json"
     row = json.loads(row_path.read_text(encoding="utf-8"))
+    meta = row.get("_meta") or {}
+    base = (meta.get("images_base_url") or cfg.get("public_base_url") or "").strip()
+    video_base = (meta.get("video_base_url") or cfg.get("public_base_url") or "").strip()
+    if not base:
+        raise SystemExit("Укажите public_base_url в hosting.config.json")
 
     images_dir = card / "images"
     manifest_path = card / "images-manifest.json"
@@ -53,7 +54,7 @@ def main() -> None:
     video_path = card / "video" / "video-cover.mp4"
     if video_path.exists():
         row["Озон.Видеообложка: ссылка"] = public_url(
-            base, f"cards/{article}/video/video-cover.mp4"
+            video_base, f"cards/{article}/video/video-cover.mp4"
         )
 
     row_path.write_text(json.dumps(row, ensure_ascii=False, indent=2), encoding="utf-8")
