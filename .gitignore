@@ -7,3 +7,4 @@ venv/
 ~$*
 cards/*/filled-template.xlsx
 cards/*/OZON_UPLOAD_*.xlsx
+*.dealer-tmp
