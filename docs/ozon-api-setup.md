@@ -25,3 +25,15 @@ py scripts/ozon_api_stocks.py Ц0011713 --stock 1
 Повторить для `Ц0023320`.
 
 При `imported` со статусом `skipped` скрипт импорта сам вызовет `/v1/product/pictures/import`.
+
+## Автоответы покупателям
+
+Вопросы, отзывы и чат: `docs/ozon-buyer-comms.md`
+
+```bash
+python3 scripts/ozon_comms_poll.py --all --dry-run   # черновики
+python3 scripts/ozon_comms_poll.py --all            # отправка
+```
+
+Cron: GitHub Actions **Ozon buyer comms auto-reply** (каждые 15 мин).  
+Вопросы и отзывы требуют **Premium Plus**; чат работает на обычном API.

@@ -7,3 +7,5 @@ venv/
 ~$*
 cards/*/filled-template.xlsx
 cards/*/OZON_UPLOAD_*.xlsx
+data/ozon-comms-state.json
+data/ozon-comms-logs/

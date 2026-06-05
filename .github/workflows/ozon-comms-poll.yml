@@ -1,0 +1,48 @@
+name: Ozon buyer comms auto-reply
+
+on:
+  schedule:
+    # каждые 15 минут
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Только черновики, без отправки"
+        type: boolean
+        default: false
+      notify_telegram:
+        description: "Отправить сводку в Telegram"
+        type: boolean
+        default: true
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Poll questions, reviews, chat
+        env:
+          OZON_CLIENT_ID: ${{ secrets.OZON_CLIENT_ID || secrets.Api_client_id }}
+          OZON_API_KEY: ${{ secrets.OZON_API_KEY || secrets.Api_secret_key }}
+          Api_client_id: ${{ secrets.Api_client_id }}
+          Api_secret_key: ${{ secrets.Api_secret_key }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OZON_COMMS_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true' && '1' || '0' }}
+          OZON_COMMS_NOTIFY_TELEGRAM: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.notify_telegram == 'false' && '0' || '1' }}
+        run: python3 scripts/ozon_comms_poll.py --all --notify-telegram
+
+      - name: Upload comms logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ozon-comms-logs
+          path: data/ozon-comms-logs/
+          if-no-files-found: ignore
