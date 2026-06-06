@@ -53,6 +53,13 @@ PER_ARTICLE: dict[str, list[str]] = {
         "06-layout.png",
         "08-cooktop-gas.png",
     ],
+    "Гостиная Гориция НСМ Сапфировый": [
+        "01-main.png",
+        "03-lifestyle.png",
+        "05-angle.png",
+        "08-interior.png",
+        "10-series.png",
+    ],
 }
 
 
