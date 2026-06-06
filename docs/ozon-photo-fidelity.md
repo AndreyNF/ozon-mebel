@@ -29,4 +29,5 @@
 
 - MCP: `gpt-image-2`, `seedream-4_5-edit` с `input_urls`
 - Браво: `scripts/bravo_faithful_i2i_prompts.py`
+- Sanvut кухня: `scripts/sanvut_faithful_i2i_prompts.py`
 - Манифест: `"photo_policy": "dealer_i2i_faithful_color_layout"`

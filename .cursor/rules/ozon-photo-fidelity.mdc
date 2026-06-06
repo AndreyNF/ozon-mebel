@@ -33,6 +33,7 @@ alwaysApply: true
 - `images-manifest.json` → `"photo_policy": "dealer_i2i_faithful_color_layout"`
 - Промпты: «preserve exact layout», «do NOT add modules», «exact colors from reference»
 - Браво: `scripts/bravo_faithful_i2i_prompts.py`
+- Sanvut кухня: `scripts/sanvut_faithful_i2i_prompts.py`
 - После замены файлов — `?v=YYYYMMDD` на **фото**; видео — новое имя файла (без `?v=`)
 
 ## Модерация Ozon

@@ -15,17 +15,7 @@
   "dealer_ref": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp",
   "source": "https://sanvut.ru/product/kukhonnyy-garnitur-uglovoy-shampan-1000kh1800-mm/",
   "layout_note": "Угловая 1800x1000 мм — одна зона готовки (модуль 450 мм), не дублировать плиту",
-  "dealer_slots": {
-    "01-main.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp",
-    "02-infographic.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/096/voc4efgsfe9ffce0juiz3fyhzds9vxpv.webp",
-    "03-lifestyle.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/5c5/im8kwe22dvxqafqjpyn4ml3rqkkv28kw.webp",
-    "04-details.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/5d4/mnqeo7gevkmggqagmugzh1t7gc2siweu.webp",
-    "05-angle.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/5c5/im8kwe22dvxqafqjpyn4ml3rqkkv28kw.webp",
-    "06-layout.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/096/voc4efgsfe9ffce0juiz3fyhzds9vxpv.webp",
-    "07-utp.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp",
-    "08-cooktop-gas.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp (crop cooktop)",
-    "09-cooktop-electric.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp (crop cooktop)",
-    "10-cooktop-induction.png": "https://sanvut.ru/upload/dev2fun.imagecompress/webp/iblock/da8/jhzu9912ai37ncj41gfgf2r36453y98p.webp (crop cooktop)"
-  },
-  "photo_policy": "dealer_only_no_ai_color"
+  "photo_policy": "dealer_i2i_faithful_color_layout",
+  "i2i_models": "seedream-4_5-edit",
+  "i2i_prompts_module": "scripts/sanvut_faithful_i2i_prompts.py"
 }
