@@ -54,11 +54,14 @@ def main() -> None:
     row["images"] = urls
     row["image_files"] = files
 
-    video_path = card / "video" / "video-cover.mp4"
+    video_rel = (meta.get("video_cover") or "video/video-cover.mp4").strip()
+    video_path = card / video_rel
+    if not video_path.exists() and (card / "video" / "video-cover.mp4").exists():
+        video_rel = "video/video-cover.mp4"
+        video_path = card / video_rel
     if video_path.exists():
-        row["Озон.Видеообложка: ссылка"] = public_url(
-            video_base, f"cards/{article}/video/video-cover.mp4"
-        )
+        row["Озон.Видеообложка: ссылка"] = public_url(video_base, f"cards/{article}/{video_rel}")
+        meta["video_cover"] = video_rel.replace("\\", "/")
 
     row_path.write_text(json.dumps(row, ensure_ascii=False, indent=2), encoding="utf-8")
 
