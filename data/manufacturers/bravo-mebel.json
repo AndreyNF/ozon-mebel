@@ -12,8 +12,10 @@
     "one_card_per": "collection_url",
     "skip_modules_in_bundle": true,
     "main_photo": "dealer_i2i_white_studio",
-    "ai_photos": "i2i_faithful_color_and_layout",
+    "ai_photos": "i2i_faithful_no_invented_modules",
     "color_policy": "dealer_match_no_saturation_boost",
+    "layout_policy": "exact_module_count_from_dealer",
+    "people_in_lifestyle": "allowed",
     "confirm_before_import": false,
     "full_cycle_to_api": true
   },

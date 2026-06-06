@@ -17,7 +17,7 @@ alwaysApply: true
 
 1. `cards/{АРТ}/` — `{АРТ}.md`, `{АРТ}.row.json`, `ozon-category-ids.json`, `images-manifest.json`
 2. Wordstat → `#Хештеги`, `_meta.wordstat`
-3. **10 фото 3:4** — MCP `gpt-image-2`, `aspect_ratio: "3:4"`, `resolution: "2K"`; референс с дилера в `input_urls`
+3. **10 фото 3:4** — MCP i2i (`gpt-image-2` / `seedream-4_5-edit`), `aspect_ratio: "3:4"`, `resolution: "2K"`; **обязательно** `input_urls` = фото производителя. См. `.cursor/rules/ozon-photo-fidelity.mdc`: обработка референса, **не выдумывать** комплект; люди в lifestyle — можно; лишние модули/шкафы — нельзя
 4. **Кухня:** слоты 08–10 — газовая+духовка, электрическая, индукционная плита (см. `ozon-photo-series-10.mdc`)
 5. Сразу: `py scripts/download_image.py URL cards/{АРТ}/images/0N-….png`
 6. `git add` + `git push` → `py scripts/apply_hosting_urls.py {АРТ}`

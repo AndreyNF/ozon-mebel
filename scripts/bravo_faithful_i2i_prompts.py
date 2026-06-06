@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Промпты i2i для Браво: AI-обработка с сохранением цвета и конфигурации дилера."""
+"""Промпты i2i для Браво: обработка фото дилера, без выдуманных модулей.
+
+Политика: .cursor/rules/ozon-photo-fidelity.mdc
+"""
 
 from __future__ import annotations
 
