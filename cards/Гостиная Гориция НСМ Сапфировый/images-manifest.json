@@ -26,5 +26,18 @@
     "09-dimensions.png": "https://tdbravomebel.ru/upload/iblock/d54/d54bbfce5960976e0000ec42866d468d.jpg",
     "10-series.png": "https://tdbravomebel.ru/upload/iblock/556/556977423a26b51a688ecf56e7ed5abf.jpg"
   },
-  "photo_policy": "dealer_only_no_ai_color"
+  "photo_policy": "dealer_i2i_faithful_color_layout",
+  "i2i_models": {
+    "01-main.png": "gpt-image-2",
+    "02-infographic.png": "seedream-4_5-edit",
+    "03-lifestyle.png": "seedream-4_5-edit",
+    "04-details.png": "seedream-4_5-edit",
+    "05-angle.png": "seedream-4_5-edit",
+    "06-layout.png": "seedream-4_5-edit",
+    "07-utp.png": "seedream-4_5-edit",
+    "08-interior.png": "seedream-4_5-edit",
+    "09-dimensions.png": "seedream-4_5-edit",
+    "10-series.png": "seedream-4_5-edit"
+  },
+  "i2i_prompts_module": "scripts/bravo_faithful_i2i_prompts.py"
 }
