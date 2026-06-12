@@ -33,6 +33,9 @@
 | 5 | Ракурс 3/4 | Three-quarter view of [ТОВАР] in empty modern kitchen, shows depth and volume |
 | 6 | Комплектация | Flat lay of included parts: panels, hardware kit, legs, assembly manual style layout |
 | 7 | УТП | Visual highlight: moisture-resistant surface / soft-close drawers / compact for small kitchen — one clear benefit |
+| 8 | Зона варки | **Один** кадр модуля под варку (кроп или i2i от референса). Подпись при необходимости: плита/духовка не в комплекте. **Не** делать газ / электро / индукцию отдельно |
+| 9 | Зона мойки | Модуль под мойку, смеситель; мойка и сушка не в комплекте — другой ракурс, не дубль слота 08 |
+| 10 | Сборка | Flat-pack: коробки, фурнитура, инструкция; или схема сборки модулей |
 
 ---
 
