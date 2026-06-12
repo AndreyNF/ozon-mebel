@@ -13,20 +13,20 @@
       "weight": 128050,
       "weight_unit": "g",
       "width": 200,
-      "height": 120,
+      "height": 85,
       "depth": 60,
       "dimension_unit": "cm",
-      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/01-main.png",
+      "primary_image": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/01-main.png",
       "images": [
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/02-infographic.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/03-lifestyle.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/04-details.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/05-angle.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/06-layout.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/07-utp.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/08-cooktop-gas.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/09-cooktop-electric.png",
-        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60111571/images/10-cooktop-induction.png"
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/02-infographic.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/03-lifestyle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/04-details.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/05-angle.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/06-layout.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/07-utp.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/08-cooktop-gas.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/09-cooktop-electric.png",
+        "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/10-cooktop-induction.png"
       ],
       "attributes": [
         {
@@ -133,7 +133,7 @@
           "id": 4191,
           "values": [
             {
-              "value": "Кухонный гарнитур ДСВ Мори 2,0 м, графит/дуб вотан — комплект на 2000 мм. Корпус и фасады ЛДСП, интегрированные ручки, 2 столешницы в комплекте. Напольные модули с ящиками и полкой, модуль под мойку, три навесных шкафа. Мойка и сушка не входят. Вес 128 кг, разбор, инструкция. Производитель ДСВ, Пенза, Россия. Подойдёт для компактной кухни в современном стиле."
+              "value": "Кухонный гарнитур ДСВ Мори 2,0 м, графит/дуб вотан — комплект модулей на 2000 мм. Корпус и фасады ЛДСП, интегрированные ручки, 2 столешницы в комплекте. Напольные модули с ящиками и полкой, модуль под мойку, три навесных шкафа. Мойка и сушка не входят. Вес 128 кг, разбор, инструкция. Производитель ДСВ, Пенза, Россия. Подойдёт для компактной кухни в современном стиле."
             }
           ]
         },
@@ -142,7 +142,7 @@
           "id": 11254,
           "values": [
             {
-              "value": ""
+              "value": "{\"version\":0.3,\"content\":[{\"widgetName\":\"raTextBlock\",\"title\":{\"content\":[\"Кухня Мори 2,0 м графит/дуб вотан — комплект ДСВ\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Модульный кухонный гарнитур 200 см: корпус и фасады ЛДСП графит, интегрированные ручки. В комплекте 2 столешницы под модули, цоколь и фурнитура. Мойка и сушка не входят.\"]}},{\"widgetName\":\"raShowcase\",\"type\":\"billboard\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/02-infographic.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/02-infographic.png\",\"alt\":\"Кухня Мори 2 м — инфографика\",\"width\":1240,\"height\":1656,\"widthMobile\":750,\"heightMobile\":1001},\"title\":{\"content\":[\"Кухня 2 метра: размеры и состав\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Ширина комплекта 2000 мм.\",\"Корпус и фасады ЛДСП, цвет графит/дуб вотан.\",\"2 столешницы в комплекте, модуль под мойку без столешницы.\",\"6 модулей: 3 напольных, 3 навесных.\",\"Артикул производителя Ц0074620.\"]}}]},{\"widgetName\":\"raShowcase\",\"type\":\"chess\",\"blocks\":[{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/03-lifestyle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/03-lifestyle.png\",\"alt\":\"Кухня Мори в интерьере\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Кухня в интерьере\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Компактная кухня 2 м для квартиры — графит с интегрированными ручками.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/06-layout.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/06-layout.png\",\"alt\":\"Планировка модулей Мори\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Состав комплекта 2,0 м\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Низ: ящики 400 мм, полка 800 мм, модуль под мойку 800 мм. Верх: 400 мм и 800 мм x2.\"]},\"reverse\":true},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/04-details.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/04-details.png\",\"alt\":\"Детали кухни Мори\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"Фасады и столешница\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"ЛДСП с интегрированной ручкой, столешница под дуб вотан, роликовые направляющие ящиков.\"]},\"reverse\":false},{\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/07-utp.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/07-utp.png\",\"alt\":\"Компактная кухня 2 метра\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000},\"imgLink\":\"\",\"title\":{\"content\":[\"2 метра — готовое решение\"],\"size\":\"size4\",\"align\":\"left\",\"color\":\"color1\"},\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Полный набор модулей для небольшой кухни, столешницы уже в комплекте.\"]},\"reverse\":true}]},{\"widgetName\":\"raShowcase\",\"type\":\"roll\",\"blocks\":[{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/01-main.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/01-main.png\",\"alt\":\"Кухня Мори — главное фото\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}},{\"imgLink\":\"\",\"img\":{\"src\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/05-angle.png\",\"srcMobile\":\"https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@main/cards/%D0%A60074620/images/05-angle.png\",\"alt\":\"Кухня Мори — ракурс\",\"width\":768,\"height\":1024,\"widthMobile\":750,\"heightMobile\":1000,\"position\":\"width_full\",\"positionMobile\":\"width_full\"}}]},{\"widgetName\":\"raTextBlock\",\"text\":{\"size\":\"size2\",\"align\":\"left\",\"color\":\"color1\",\"content\":[\"Комплектация и доставка\",\"В комплекте: напольные и навесные модули, 2 столешницы, цоколь, фурнитура, инструкция. Мойка и сушка не входят. Поставка в разборе. Производитель ДСВ, Пенза, Россия. Гарантия 24 месяца.\"]}}]}"
             }
           ]
         },
@@ -187,7 +187,7 @@
           "id": 6704,
           "values": [
             {
-              "value": "МДФ"
+              "value": "ЛДСП"
             }
           ]
         },
@@ -205,7 +205,7 @@
           "id": 6707,
           "values": [
             {
-              "value": "Матовое"
+              "value": "Ламинированное"
             }
           ]
         },
@@ -277,7 +277,7 @@
           "id": 4383,
           "values": [
             {
-              "value": "128130"
+              "value": "128050"
             }
           ]
         },
@@ -286,7 +286,7 @@
           "id": 21845,
           "values": [
             {
-              "value": ""
+              "value": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/video/video-cover.mp4"
             }
           ]
         }

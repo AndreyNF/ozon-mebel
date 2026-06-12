@@ -12,8 +12,8 @@
   "Ширина упаковки, мм*": 2000,
   "Высота упаковки, мм*": 850,
   "Длина упаковки, мм*": 600,
-  "Ссылка на главное фото*": "",
-  "Ссылки на дополнительные фото": "",
+  "Ссылка на главное фото*": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/01-main.png",
+  "Ссылки на дополнительные фото": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/02-infographic.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/03-lifestyle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/04-details.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/05-angle.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/06-layout.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/07-utp.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/08-cooktop-gas.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/09-cooktop-electric.png\r\nhttps://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/10-cooktop-induction.png",
   "Ссылки на фото 360": "",
   "Артикул фото": "C0074620-main",
   "Бренд*": "ДСВ",
@@ -63,6 +63,34 @@
     "seo_keywords": "кухня 2 метра, кухонный гарнитур, кухня графит, кухня дсв, мори кухня, модульная кухня",
     "delivery_subsidy_floor_rub": 2200,
     "delivery_subsidy_note": "realFBS, витрина 30k-75k, пол Ozon",
-    "pricing_note": "37990 с учётом комиссии Ozon и пола доставки 2200 ₽ при цене 30-75k"
-  }
+    "pricing_note": "37990 с учётом комиссии Ozon и пола доставки 2200 ₽ при цене 30-75k",
+    "images_base_url": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba",
+    "video_base_url": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba",
+    "video_cover": "video/video-cover.mp4"
+  },
+  "images": [
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/01-main.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/02-infographic.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/03-lifestyle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/04-details.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/05-angle.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/06-layout.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/07-utp.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/08-cooktop-gas.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/09-cooktop-electric.png",
+    "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/10-cooktop-induction.png"
+  ],
+  "image_files": [
+    "01-main.png",
+    "02-infographic.png",
+    "03-lifestyle.png",
+    "04-details.png",
+    "05-angle.png",
+    "06-layout.png",
+    "07-utp.png",
+    "08-cooktop-gas.png",
+    "09-cooktop-electric.png",
+    "10-cooktop-induction.png"
+  ],
+  "Озон.Видеообложка: ссылка": "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/video/video-cover.mp4"
 }
