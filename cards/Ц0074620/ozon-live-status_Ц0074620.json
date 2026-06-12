@@ -1,0 +1,103 @@
+{
+  "item": {
+    "id": 5058261131,
+    "name": "Кухонный гарнитур ДСВ Мори 2,0 м, графит/дуб вотан",
+    "offer_id": "Ц0074620",
+    "is_archived": false,
+    "is_autoarchived": false,
+    "barcodes": [],
+    "description_category_id": 80771432,
+    "type_id": 95089,
+    "created_at": "2026-06-12T16:45:47.855960Z",
+    "images": [
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/02-infographic.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/03-lifestyle.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/04-details.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/05-angle.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/06-layout.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/07-utp.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/08-cooktop-gas.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/09-cooktop-electric.png",
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/10-cooktop-induction.png"
+    ],
+    "currency_code": "RUB",
+    "min_price": "",
+    "old_price": "44990.00",
+    "price": "37990.00",
+    "sources": [],
+    "model_info": {
+      "model_id": 0,
+      "count": 0
+    },
+    "commissions": [],
+    "is_prepayment_allowed": false,
+    "volume_weight": 204,
+    "has_discounted_fbo_item": false,
+    "is_discounted": false,
+    "discounted_fbo_stocks": 0,
+    "stocks": {
+      "has_stock": false,
+      "stocks": []
+    },
+    "errors": [],
+    "updated_at": "2026-06-12T16:45:47.855960Z",
+    "vat": "0.00",
+    "visibility_details": {
+      "has_price": true,
+      "has_stock": false
+    },
+    "price_indexes": {
+      "color_index": "COLOR_INDEX_WITHOUT_INDEX",
+      "external_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "",
+        "price_index_value": 0
+      },
+      "ozon_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "",
+        "price_index_value": 0
+      },
+      "self_marketplaces_index_data": {
+        "minimal_price": "",
+        "minimal_price_currency": "",
+        "price_index_value": 0
+      }
+    },
+    "images360": [],
+    "is_kgt": false,
+    "color_image": [],
+    "primary_image": [
+      "https://cdn.jsdelivr.net/gh/AndreyNF/ozon-mebel@cursor/card-mori-kitchen-c5ba/cards/%D0%A60074620/images/01-main.png"
+    ],
+    "statuses": {
+      "status": "imported",
+      "status_failed": "",
+      "moderate_status": "",
+      "validation_status": "pending",
+      "status_name": "Не продается",
+      "status_description": "Создается",
+      "is_created": false,
+      "status_tooltip": "",
+      "status_updated_at": "2026-06-12T16:45:47.855960Z"
+    },
+    "is_super": false,
+    "is_seasonal": false,
+    "promotions": [
+      {
+        "is_enabled": false,
+        "type": "REVIEWS_PROMO"
+      }
+    ],
+    "sku": 0,
+    "availabilities": []
+  },
+  "description": {
+    "result": {
+      "id": 5058261131,
+      "offer_id": "Ц0074620",
+      "name": "Кухонный гарнитур ДСВ Мори 2,0 м, графит/дуб вотан",
+      "description": "Кухонный гарнитур ДСВ Мори 2,0 м, графит/дуб вотан — комплект модулей на 2000 мм. Корпус и фасады ЛДСП, интегрированные ручки, 2 столешницы в комплекте. Напольные модули с ящиками и полкой, модуль под мойку, три навесных шкафа. Мойка и сушка не входят. Вес 128 кг, разбор, инструкция. Производитель ДСВ, Пенза, Россия. Подойдёт для компактной кухни в современном стиле."
+    }
+  }
+}
