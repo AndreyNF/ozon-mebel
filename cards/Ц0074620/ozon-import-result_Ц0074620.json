@@ -1,0 +1,15 @@
+{
+  "result": {
+    "items": [
+      {
+        "offer_id": "Ц0074620",
+        "product_id": 5058261131,
+        "status": "imported",
+        "errors": []
+      }
+    ],
+    "total": 1
+  },
+  "task_id": 4789451447,
+  "submitted_at": "2026-06-12T17:01:39.312447+00:00"
+}
