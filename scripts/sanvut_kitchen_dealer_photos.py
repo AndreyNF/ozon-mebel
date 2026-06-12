@@ -30,10 +30,10 @@ SLOT_URLS: dict[str, str] = {
     "07-utp.png": SANVUT_URLS["main"],
 }
 
-COOKTOP_LABELS = {
-    "08-cooktop-gas.png": "Модуль 450 мм: газовая панель + духовка\n(не входят в комплект)",
-    "09-cooktop-electric.png": "Модуль 450 мм: электрическая панель\n(не входит в комплект)",
-    "10-cooktop-induction.png": "Модуль 450 мм: индукционная панель\n(не входит в комплект)",
+EXTRA_SLOTS = {
+    "08-cooktop.png": "Модуль под варку: плита и духовка\n(не входят в комплект)",
+    "09-sink.png": "Модуль под мойку\n(мойка не входит в комплект)",
+    "10-assembly.png": "Поставка в разборе: модули, фурнитура, инструкция",
 }
 
 
@@ -76,16 +76,22 @@ def _font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     return ImageFont.load_default()
 
 
-def make_cooktop_slide(main_path: Path, dest: Path, label: str) -> None:
-    """Кроп модуля под духовку с оригинала — без AI, тот же цвет фасадов."""
+def make_labeled_slide(
+    main_path: Path,
+    dest: Path,
+    label: str,
+    *,
+    crop: tuple[float, float, float, float] = (0.42, 0.38, 0.98, 0.98),
+) -> None:
+    """Кроп сектора кухни с оригинала — без AI, тот же цвет фасадов."""
     img = Image.open(main_path).convert("RGB")
     w, h = img.size
-    # Нижний правый сектор: зона готовки 450 мм на угловой кухне
-    crop = img.crop((int(w * 0.42), int(h * 0.38), int(w * 0.98), int(h * 0.98)))
+    l, t, r, b = crop
+    crop_img = img.crop((int(w * l), int(h * t), int(w * r), int(h * b)))
     tw, th = 1536, 2048
-    scale = min(tw / crop.width, (th - 280) / crop.height)
-    nw, nh = max(1, int(crop.width * scale)), max(1, int(crop.height * scale))
-    resized = crop.resize((nw, nh), Image.Resampling.LANCZOS)
+    scale = min(tw / crop_img.width, (th - 280) / crop_img.height)
+    nw, nh = max(1, int(crop_img.width * scale)), max(1, int(crop_img.height * scale))
+    resized = crop_img.resize((nw, nh), Image.Resampling.LANCZOS)
     canvas = Image.new("RGB", (tw, th), (255, 255, 255))
     canvas.paste(resized, ((tw - nw) // 2, max(40, (th - 280 - nh) // 2)))
 
@@ -128,11 +134,21 @@ def apply(article: str = "Кухня Шампань 1000х1800") -> None:
     if not main_raw.is_file():
         download(SANVUT_URLS["main"], main_raw)
 
-    for slot, label in COOKTOP_LABELS.items():
+    crop_by_slot: dict[str, tuple[float, float, float, float]] = {
+        "08-cooktop.png": (0.42, 0.38, 0.98, 0.98),
+        "09-sink.png": (0.05, 0.38, 0.55, 0.98),
+        "10-assembly.png": (0.08, 0.05, 0.92, 0.95),
+    }
+
+    for slot, label in EXTRA_SLOTS.items():
         dest = out_dir / slot
-        make_cooktop_slide(main_raw, dest, label)
-        manifest_refs[slot] = SANVUT_URLS["main"] + " (crop cooktop)"
-        print(f"OK {slot} <- crop + label")
+        if slot == "10-assembly.png":
+            fit_3x4(main_raw, dest, crop_frac=crop_by_slot[slot])
+            manifest_refs[slot] = SANVUT_URLS["schematic"]
+        else:
+            make_labeled_slide(main_raw, dest, label, crop=crop_by_slot[slot])
+            manifest_refs[slot] = SANVUT_URLS["main"] + f" (crop {slot})"
+        print(f"OK {slot}")
 
     manifest_path = card / "images-manifest.json"
     manifest = {}
@@ -142,7 +158,7 @@ def apply(article: str = "Кухня Шампань 1000х1800") -> None:
     manifest["photo_policy"] = "dealer_only_no_ai_color"
     manifest["dealer_ref"] = SANVUT_URLS["main"]
     manifest["required_count"] = 10
-    manifest["image_files"] = sorted(SLOT_URLS.keys()) + sorted(COOKTOP_LABELS.keys())
+    manifest["image_files"] = sorted(SLOT_URLS.keys()) + sorted(EXTRA_SLOTS.keys())
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     import shutil
