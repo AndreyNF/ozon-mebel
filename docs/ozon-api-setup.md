@@ -1,5 +1,7 @@
 # Ozon Seller API
 
+Документация для **другого проекта** (сайт магазина): [ozon-product-export-website.md](./ozon-product-export-website.md) — как получить карточки из кабинета Ozon через API.
+
 ## Ключи
 
 1. [seller.ozon.ru](https://seller.ozon.ru) → Настройки → API-ключи (Seller API, товары + цены).
