@@ -18,6 +18,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from ozon_client import poll_import_task, post
+from telegram_notify import format_import_notify, notify_safe
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -55,6 +56,12 @@ def main() -> None:
     parser.add_argument("--no-wait", action="store_true")
     parser.add_argument("--no-pictures-fallback", action="store_true")
     parser.add_argument("--sync-payload", action="store_true", help="Сначала ozon_sync_import_payload.py")
+    parser.add_argument("--no-notify", action="store_true", help="Не слать Telegram")
+    parser.add_argument(
+        "--defer-notify",
+        action="store_true",
+        help="При успехе не слать (итог — в ozon_api_stocks после status)",
+    )
     args = parser.parse_args()
 
     article = args.article
@@ -119,6 +126,10 @@ def main() -> None:
     out.write_text(json.dumps(save, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"OK -> {out}")
 
+    if not args.no_notify and not args.defer_notify:
+        if notify_safe(format_import_notify(article, items, pictures=bool(pictures_resp))):
+            print("Telegram: sent")
+
 
 if __name__ == "__main__":
     try:
@@ -127,4 +138,7 @@ if __name__ == "__main__":
         if isinstance(e, SystemExit):
             raise
         print(f"ERROR: {e}", file=sys.stderr)
+        art = sys.argv[1] if len(sys.argv) > 1 else "?"
+        if "--no-notify" not in sys.argv:
+            notify_safe(f"Ozon import: {art}\n• ошибка: {e}")
         sys.exit(1)
